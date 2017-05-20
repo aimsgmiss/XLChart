@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31BFAB51ED0152B0077A793 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BFAB41ED0152B0077A793 /* main.m */; };
+		C31BFAB81ED0152C0077A793 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BFAB71ED0152C0077A793 /* AppDelegate.m */; };
+		C31BFABB1ED0152C0077A793 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BFABA1ED0152C0077A793 /* ViewController.m */; };
+		C31BFABE1ED0152C0077A793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31BFABC1ED0152C0077A793 /* Main.storyboard */; };
+		C31BFAC01ED0152C0077A793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31BFABF1ED0152C0077A793 /* Assets.xcassets */; };
+		C31BFAC31ED0152C0077A793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31BFAC11ED0152C0077A793 /* LaunchScreen.storyboard */; };
+		C31BFACE1ED0152C0077A793 /* XLChartClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BFACD1ED0152C0077A793 /* XLChartClientTests.m */; };
+		C31BFAD91ED0152C0077A793 /* XLChartClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BFAD81ED0152C0077A793 /* XLChartClientUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C31BFACA1ED0152C0077A793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C31BFAA81ED0152B0077A793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31BFAAF1ED0152B0077A793;
+			remoteInfo = XLChartClient;
+		};
+		C31BFAD51ED0152C0077A793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C31BFAA81ED0152B0077A793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31BFAAF1ED0152B0077A793;
+			remoteInfo = XLChartClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C31BFAB01ED0152B0077A793 /* XLChartClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLChartClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31BFAB41ED0152B0077A793 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C31BFAB61ED0152B0077A793 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C31BFAB71ED0152C0077A793 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C31BFAB91ED0152C0077A793 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C31BFABA1ED0152C0077A793 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C31BFABD1ED0152C0077A793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C31BFABF1ED0152C0077A793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C31BFAC21ED0152C0077A793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C31BFAC41ED0152C0077A793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31BFAC91ED0152C0077A793 /* XLChartClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLChartClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31BFACD1ED0152C0077A793 /* XLChartClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLChartClientTests.m; sourceTree = "<group>"; };
+		C31BFACF1ED0152C0077A793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31BFAD41ED0152C0077A793 /* XLChartClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLChartClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31BFAD81ED0152C0077A793 /* XLChartClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLChartClientUITests.m; sourceTree = "<group>"; };
+		C31BFADA1ED0152C0077A793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31BFAAD1ED0152B0077A793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31BFAC61ED0152C0077A793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31BFAD11ED0152C0077A793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C31BFAA71ED0152B0077A793 = {
+			isa = PBXGroup;
+			children = (
+				C31BFAB21ED0152B0077A793 /* XLChartClient */,
+				C31BFACC1ED0152C0077A793 /* XLChartClientTests */,
+				C31BFAD71ED0152C0077A793 /* XLChartClientUITests */,
+				C31BFAB11ED0152B0077A793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C31BFAB11ED0152B0077A793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31BFAB01ED0152B0077A793 /* XLChartClient.app */,
+				C31BFAC91ED0152C0077A793 /* XLChartClientTests.xctest */,
+				C31BFAD41ED0152C0077A793 /* XLChartClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31BFAB21ED0152B0077A793 /* XLChartClient */ = {
+			isa = PBXGroup;
+			children = (
+				C31BFAB61ED0152B0077A793 /* AppDelegate.h */,
+				C31BFAB71ED0152C0077A793 /* AppDelegate.m */,
+				C31BFAB91ED0152C0077A793 /* ViewController.h */,
+				C31BFABA1ED0152C0077A793 /* ViewController.m */,
+				C31BFABC1ED0152C0077A793 /* Main.storyboard */,
+				C31BFABF1ED0152C0077A793 /* Assets.xcassets */,
+				C31BFAC11ED0152C0077A793 /* LaunchScreen.storyboard */,
+				C31BFAC41ED0152C0077A793 /* Info.plist */,
+				C31BFAB31ED0152B0077A793 /* Supporting Files */,
+			);
+			path = XLChartClient;
+			sourceTree = "<group>";
+		};
+		C31BFAB31ED0152B0077A793 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C31BFAB41ED0152B0077A793 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C31BFACC1ED0152C0077A793 /* XLChartClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				C31BFACD1ED0152C0077A793 /* XLChartClientTests.m */,
+				C31BFACF1ED0152C0077A793 /* Info.plist */,
+			);
+			path = XLChartClientTests;
+			sourceTree = "<group>";
+		};
+		C31BFAD71ED0152C0077A793 /* XLChartClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C31BFAD81ED0152C0077A793 /* XLChartClientUITests.m */,
+				C31BFADA1ED0152C0077A793 /* Info.plist */,
+			);
+			path = XLChartClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31BFAAF1ED0152B0077A793 /* XLChartClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31BFADD1ED0152C0077A793 /* Build configuration list for PBXNativeTarget "XLChartClient" */;
+			buildPhases = (
+				C31BFAAC1ED0152B0077A793 /* Sources */,
+				C31BFAAD1ED0152B0077A793 /* Frameworks */,
+				C31BFAAE1ED0152B0077A793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLChartClient;
+			productName = XLChartClient;
+			productReference = C31BFAB01ED0152B0077A793 /* XLChartClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C31BFAC81ED0152C0077A793 /* XLChartClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31BFAE01ED0152C0077A793 /* Build configuration list for PBXNativeTarget "XLChartClientTests" */;
+			buildPhases = (
+				C31BFAC51ED0152C0077A793 /* Sources */,
+				C31BFAC61ED0152C0077A793 /* Frameworks */,
+				C31BFAC71ED0152C0077A793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31BFACB1ED0152C0077A793 /* PBXTargetDependency */,
+			);
+			name = XLChartClientTests;
+			productName = XLChartClientTests;
+			productReference = C31BFAC91ED0152C0077A793 /* XLChartClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C31BFAD31ED0152C0077A793 /* XLChartClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31BFAE31ED0152C0077A793 /* Build configuration list for PBXNativeTarget "XLChartClientUITests" */;
+			buildPhases = (
+				C31BFAD01ED0152C0077A793 /* Sources */,
+				C31BFAD11ED0152C0077A793 /* Frameworks */,
+				C31BFAD21ED0152C0077A793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31BFAD61ED0152C0077A793 /* PBXTargetDependency */,
+			);
+			name = XLChartClientUITests;
+			productName = XLChartClientUITests;
+			productReference = C31BFAD41ED0152C0077A793 /* XLChartClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C31BFAA81ED0152B0077A793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JuniorKey;
+				TargetAttributes = {
+					C31BFAAF1ED0152B0077A793 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 45EY8JJE63;
+						ProvisioningStyle = Automatic;
+					};
+					C31BFAC81ED0152C0077A793 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 45EY8JJE63;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C31BFAAF1ED0152B0077A793;
+					};
+					C31BFAD31ED0152C0077A793 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 45EY8JJE63;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C31BFAAF1ED0152B0077A793;
+					};
+				};
+			};
+			buildConfigurationList = C31BFAAB1ED0152B0077A793 /* Build configuration list for PBXProject "XLChartClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C31BFAA71ED0152B0077A793;
+			productRefGroup = C31BFAB11ED0152B0077A793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31BFAAF1ED0152B0077A793 /* XLChartClient */,
+				C31BFAC81ED0152C0077A793 /* XLChartClientTests */,
+				C31BFAD31ED0152C0077A793 /* XLChartClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C31BFAAE1ED0152B0077A793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31BFAC31ED0152C0077A793 /* LaunchScreen.storyboard in Resources */,
+				C31BFAC01ED0152C0077A793 /* Assets.xcassets in Resources */,
+				C31BFABE1ED0152C0077A793 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31BFAC71ED0152C0077A793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31BFAD21ED0152C0077A793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C31BFAAC1ED0152B0077A793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31BFABB1ED0152C0077A793 /* ViewController.m in Sources */,
+				C31BFAB81ED0152C0077A793 /* AppDelegate.m in Sources */,
+				C31BFAB51ED0152B0077A793 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31BFAC51ED0152C0077A793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31BFACE1ED0152C0077A793 /* XLChartClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31BFAD01ED0152C0077A793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31BFAD91ED0152C0077A793 /* XLChartClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C31BFACB1ED0152C0077A793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31BFAAF1ED0152B0077A793 /* XLChartClient */;
+			targetProxy = C31BFACA1ED0152C0077A793 /* PBXContainerItemProxy */;
+		};
+		C31BFAD61ED0152C0077A793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31BFAAF1ED0152B0077A793 /* XLChartClient */;
+			targetProxy = C31BFAD51ED0152C0077A793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C31BFABC1ED0152C0077A793 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31BFABD1ED0152C0077A793 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C31BFAC11ED0152C0077A793 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31BFAC21ED0152C0077A793 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C31BFADB1ED0152C0077A793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C31BFADC1ED0152C0077A793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C31BFADE1ED0152C0077A793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45EY8JJE63;
+				INFOPLIST_FILE = XLChartClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XLChartClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C31BFADF1ED0152C0077A793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45EY8JJE63;
+				INFOPLIST_FILE = XLChartClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XLChartClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C31BFAE11ED0152C0077A793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 45EY8JJE63;
+				INFOPLIST_FILE = XLChartClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XLChartClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLChartClient.app/XLChartClient";
+			};
+			name = Debug;
+		};
+		C31BFAE21ED0152C0077A793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 45EY8JJE63;
+				INFOPLIST_FILE = XLChartClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XLChartClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLChartClient.app/XLChartClient";
+			};
+			name = Release;
+		};
+		C31BFAE41ED0152C0077A793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 45EY8JJE63;
+				INFOPLIST_FILE = XLChartClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XLChartClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLChartClient;
+			};
+			name = Debug;
+		};
+		C31BFAE51ED0152C0077A793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 45EY8JJE63;
+				INFOPLIST_FILE = XLChartClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XLChartClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLChartClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C31BFAAB1ED0152B0077A793 /* Build configuration list for PBXProject "XLChartClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31BFADB1ED0152C0077A793 /* Debug */,
+				C31BFADC1ED0152C0077A793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31BFADD1ED0152C0077A793 /* Build configuration list for PBXNativeTarget "XLChartClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31BFADE1ED0152C0077A793 /* Debug */,
+				C31BFADF1ED0152C0077A793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C31BFAE01ED0152C0077A793 /* Build configuration list for PBXNativeTarget "XLChartClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31BFAE11ED0152C0077A793 /* Debug */,
+				C31BFAE21ED0152C0077A793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C31BFAE31ED0152C0077A793 /* Build configuration list for PBXNativeTarget "XLChartClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31BFAE41ED0152C0077A793 /* Debug */,
+				C31BFAE51ED0152C0077A793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C31BFAA81ED0152B0077A793 /* Project object */;
+}
