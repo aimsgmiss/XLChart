@@ -115,9 +115,6 @@ XLAddMethodImTemplate(shapLayers)
     NSInteger           count;
     XLPieChartM*        pieCharM;
     CGMutablePathRef    pathM;
-    CGFloat             x;
-    CGFloat             y;
-    CGSize              textSize;
     RectangleAttr       rectangleAttr;
     CGFloat             selectedCenterX;
     CGFloat             selectedCenterY;
