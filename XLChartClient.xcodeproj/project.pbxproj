@@ -95,6 +95,14 @@
 		C38058001F1099B2009BC4BC /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057DD1F1099B2009BC4BC /* UIScrollView+MJRefresh.m */; };
 		C38058011F1099B2009BC4BC /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057DF1F1099B2009BC4BC /* UIView+MJExtension.m */; };
 		C38058021F1099B2009BC4BC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C38057E01F1099B2009BC4BC /* README.md */; };
+		C380580C1F10B4D9009BC4BC /* XLTableChart.gif in Resources */ = {isa = PBXBuildFile; fileRef = C38058041F10B4D9009BC4BC /* XLTableChart.gif */; };
+		C380580D1F10B4D9009BC4BC /* XLTableNormalChart.gif in Resources */ = {isa = PBXBuildFile; fileRef = C38058051F10B4D9009BC4BC /* XLTableNormalChart.gif */; };
+		C380580E1F10B4D9009BC4BC /* XLRadarChart.gif in Resources */ = {isa = PBXBuildFile; fileRef = C38058061F10B4D9009BC4BC /* XLRadarChart.gif */; };
+		C380580F1F10B4D9009BC4BC /* XLBarLineChart.gif in Resources */ = {isa = PBXBuildFile; fileRef = C38058071F10B4D9009BC4BC /* XLBarLineChart.gif */; };
+		C38058101F10B4D9009BC4BC /* XLPieChart.gif in Resources */ = {isa = PBXBuildFile; fileRef = C38058081F10B4D9009BC4BC /* XLPieChart.gif */; };
+		C38058111F10B4D9009BC4BC /* XLQuadrantChart.gif in Resources */ = {isa = PBXBuildFile; fileRef = C38058091F10B4D9009BC4BC /* XLQuadrantChart.gif */; };
+		C38058121F10B4D9009BC4BC /* XLBarUpChart.gif in Resources */ = {isa = PBXBuildFile; fileRef = C380580A1F10B4D9009BC4BC /* XLBarUpChart.gif */; };
+		C38058131F10B4D9009BC4BC /* XLBarRightChart.gif in Resources */ = {isa = PBXBuildFile; fileRef = C380580B1F10B4D9009BC4BC /* XLBarRightChart.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -286,6 +294,14 @@
 		C38057DE1F1099B2009BC4BC /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		C38057DF1F1099B2009BC4BC /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		C38057E01F1099B2009BC4BC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C38058041F10B4D9009BC4BC /* XLTableChart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XLTableChart.gif; sourceTree = "<group>"; };
+		C38058051F10B4D9009BC4BC /* XLTableNormalChart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XLTableNormalChart.gif; sourceTree = "<group>"; };
+		C38058061F10B4D9009BC4BC /* XLRadarChart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XLRadarChart.gif; sourceTree = "<group>"; };
+		C38058071F10B4D9009BC4BC /* XLBarLineChart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XLBarLineChart.gif; sourceTree = "<group>"; };
+		C38058081F10B4D9009BC4BC /* XLPieChart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XLPieChart.gif; sourceTree = "<group>"; };
+		C38058091F10B4D9009BC4BC /* XLQuadrantChart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XLQuadrantChart.gif; sourceTree = "<group>"; };
+		C380580A1F10B4D9009BC4BC /* XLBarUpChart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XLBarUpChart.gif; sourceTree = "<group>"; };
+		C380580B1F10B4D9009BC4BC /* XLBarRightChart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XLBarRightChart.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,6 +381,7 @@
 		C31BFAB31ED0152B0077A793 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C38058031F10B4BC009BC4BC /* ScreenShots */,
 				C31BFAB41ED0152B0077A793 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -922,6 +939,21 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		C38058031F10B4BC009BC4BC /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				C38058041F10B4D9009BC4BC /* XLTableChart.gif */,
+				C38058051F10B4D9009BC4BC /* XLTableNormalChart.gif */,
+				C38058061F10B4D9009BC4BC /* XLRadarChart.gif */,
+				C38058071F10B4D9009BC4BC /* XLBarLineChart.gif */,
+				C38058081F10B4D9009BC4BC /* XLPieChart.gif */,
+				C38058091F10B4D9009BC4BC /* XLQuadrantChart.gif */,
+				C380580A1F10B4D9009BC4BC /* XLBarUpChart.gif */,
+				C380580B1F10B4D9009BC4BC /* XLBarRightChart.gif */,
+			);
+			path = ScreenShots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1034,10 +1066,18 @@
 			files = (
 				C38057E11F1099B2009BC4BC /* LICENSE in Resources */,
 				C31BFAC31ED0152C0077A793 /* LaunchScreen.storyboard in Resources */,
+				C380580C1F10B4D9009BC4BC /* XLTableChart.gif in Resources */,
 				C31BFBA91ED028C50077A793 /* MainFoldingCell.xib in Resources */,
+				C380580D1F10B4D9009BC4BC /* XLTableNormalChart.gif in Resources */,
 				C38057ED1F1099B2009BC4BC /* LICENSE in Resources */,
 				C31BFAC01ED0152C0077A793 /* Assets.xcassets in Resources */,
 				C38057301F107C6A009BC4BC /* XLQuadrantTableViewCell.xib in Resources */,
+				C38058111F10B4D9009BC4BC /* XLQuadrantChart.gif in Resources */,
+				C38058131F10B4D9009BC4BC /* XLBarRightChart.gif in Resources */,
+				C380580F1F10B4D9009BC4BC /* XLBarLineChart.gif in Resources */,
+				C38058121F10B4D9009BC4BC /* XLBarUpChart.gif in Resources */,
+				C380580E1F10B4D9009BC4BC /* XLRadarChart.gif in Resources */,
+				C38058101F10B4D9009BC4BC /* XLPieChart.gif in Resources */,
 				C31BFABE1ED0152C0077A793 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
