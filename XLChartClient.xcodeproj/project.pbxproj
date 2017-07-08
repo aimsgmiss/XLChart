@@ -179,6 +179,8 @@
 		C38057181F107C6A009BC4BC /* XLTitleRectangleM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTitleRectangleM.m; sourceTree = "<group>"; };
 		C380571A1F107C6A009BC4BC /* XLTitleRectangleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTitleRectangleChart.h; sourceTree = "<group>"; };
 		C380571B1F107C6A009BC4BC /* XLTitleRectangleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTitleRectangleChart.m; sourceTree = "<group>"; };
+		C38057431F107DB8009BC4BC /* XLChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChart.h; sourceTree = "<group>"; };
+		C38057441F107DBF009BC4BC /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +298,8 @@
 		C38056AA1F107C6A009BC4BC /* XLGraphicEngine */ = {
 			isa = PBXGroup;
 			children = (
+				C38057441F107DBF009BC4BC /* define.h */,
+				C38057431F107DB8009BC4BC /* XLChart.h */,
 				C38056AB1F107C6A009BC4BC /* XLAxisChart */,
 				C38056B21F107C6A009BC4BC /* XLBarChart */,
 				C38056BD1F107C6A009BC4BC /* XLBaseChart */,
