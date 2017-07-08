@@ -59,6 +59,10 @@
 		C38057401F107C6A009BC4BC /* XLTimeLineChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057141F107C6A009BC4BC /* XLTimeLineChartVC.m */; };
 		C38057411F107C6A009BC4BC /* XLTitleRectangleM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057181F107C6A009BC4BC /* XLTitleRectangleM.m */; };
 		C38057421F107C6A009BC4BC /* XLTitleRectangleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C380571B1F107C6A009BC4BC /* XLTitleRectangleChart.m */; };
+		C380578C1F108BE5009BC4BC /* CRoutines.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057891F108BE5009BC4BC /* CRoutines.m */; };
+		C380578D1F108BE5009BC4BC /* XLGraphicEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C380578B1F108BE5009BC4BC /* XLGraphicEngine.m */; };
+		C38057931F108C78009BC4BC /* UIColor+XLUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057901F108C78009BC4BC /* UIColor+XLUIColor.m */; };
+		C38057941F108C78009BC4BC /* UIView+ICoo.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057921F108C78009BC4BC /* UIView+ICoo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +185,14 @@
 		C380571B1F107C6A009BC4BC /* XLTitleRectangleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTitleRectangleChart.m; sourceTree = "<group>"; };
 		C38057431F107DB8009BC4BC /* XLChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChart.h; sourceTree = "<group>"; };
 		C38057441F107DBF009BC4BC /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		C38057881F108BE5009BC4BC /* CRoutines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRoutines.h; sourceTree = "<group>"; };
+		C38057891F108BE5009BC4BC /* CRoutines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRoutines.m; sourceTree = "<group>"; };
+		C380578A1F108BE5009BC4BC /* XLGraphicEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGraphicEngine.h; sourceTree = "<group>"; };
+		C380578B1F108BE5009BC4BC /* XLGraphicEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGraphicEngine.m; sourceTree = "<group>"; };
+		C380578F1F108C78009BC4BC /* UIColor+XLUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XLUIColor.h"; sourceTree = "<group>"; };
+		C38057901F108C78009BC4BC /* UIColor+XLUIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XLUIColor.m"; sourceTree = "<group>"; };
+		C38057911F108C78009BC4BC /* UIView+ICoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ICoo.h"; sourceTree = "<group>"; };
+		C38057921F108C78009BC4BC /* UIView+ICoo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ICoo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,13 +310,13 @@
 		C38056AA1F107C6A009BC4BC /* XLGraphicEngine */ = {
 			isa = PBXGroup;
 			children = (
+				C380578E1F108C78009BC4BC /* XLExtension */,
+				C38057871F108BE5009BC4BC /* XLKernel */,
 				C38057441F107DBF009BC4BC /* define.h */,
 				C38057431F107DB8009BC4BC /* XLChart.h */,
 				C38056AB1F107C6A009BC4BC /* XLAxisChart */,
 				C38056B21F107C6A009BC4BC /* XLBarChart */,
 				C38056BD1F107C6A009BC4BC /* XLBaseChart */,
-				C38056C41F107C6A009BC4BC /* XLExtension */,
-				C38056C51F107C6A009BC4BC /* XLKernel */,
 				C38056C61F107C6A009BC4BC /* XLPieChart */,
 				C38056CF1F107C6A009BC4BC /* XLPopupChart */,
 				C38056D61F107C6A009BC4BC /* XLQudrantChart */,
@@ -400,20 +412,6 @@
 				C38056C31F107C6A009BC4BC /* XLBaseChart.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		C38056C41F107C6A009BC4BC /* XLExtension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = XLExtension;
-			sourceTree = "<group>";
-		};
-		C38056C51F107C6A009BC4BC /* XLKernel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = XLKernel;
 			sourceTree = "<group>";
 		};
 		C38056C61F107C6A009BC4BC /* XLPieChart */ = {
@@ -669,6 +667,28 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		C38057871F108BE5009BC4BC /* XLKernel */ = {
+			isa = PBXGroup;
+			children = (
+				C38057881F108BE5009BC4BC /* CRoutines.h */,
+				C38057891F108BE5009BC4BC /* CRoutines.m */,
+				C380578A1F108BE5009BC4BC /* XLGraphicEngine.h */,
+				C380578B1F108BE5009BC4BC /* XLGraphicEngine.m */,
+			);
+			path = XLKernel;
+			sourceTree = "<group>";
+		};
+		C380578E1F108C78009BC4BC /* XLExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C380578F1F108C78009BC4BC /* UIColor+XLUIColor.h */,
+				C38057901F108C78009BC4BC /* UIColor+XLUIColor.m */,
+				C38057911F108C78009BC4BC /* UIView+ICoo.h */,
+				C38057921F108C78009BC4BC /* UIView+ICoo.m */,
+			);
+			path = XLExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -863,7 +883,9 @@
 				C38057271F107C6A009BC4BC /* XLPopupChartM.m in Sources */,
 				C380572C1F107C6A009BC4BC /* XLQuadrantRectangleM.m in Sources */,
 				C380571C1F107C6A009BC4BC /* XLAxisM.m in Sources */,
+				C380578D1F108BE5009BC4BC /* XLGraphicEngine.m in Sources */,
 				C380573B1F107C6A009BC4BC /* XLTableChartHeader.m in Sources */,
+				C380578C1F108BE5009BC4BC /* CRoutines.m in Sources */,
 				C38057421F107C6A009BC4BC /* XLTitleRectangleChart.m in Sources */,
 				C31BFAB81ED0152C0077A793 /* AppDelegate.m in Sources */,
 				C38057331F107C6A009BC4BC /* XLSegmentCellM.m in Sources */,
@@ -873,6 +895,7 @@
 				C38057221F107C6A009BC4BC /* XLBaseM.m in Sources */,
 				C380572E1F107C6A009BC4BC /* XLQuadrantChartDetail.m in Sources */,
 				C38057391F107C6A009BC4BC /* XLTableChartDetail.m in Sources */,
+				C38057941F108C78009BC4BC /* UIView+ICoo.m in Sources */,
 				C380572D1F107C6A009BC4BC /* XLQuadrantArrowLabel.m in Sources */,
 				C38057381F107C6A009BC4BC /* XLTableChartCell.m in Sources */,
 				C38057231F107C6A009BC4BC /* XLBaseChart.m in Sources */,
@@ -901,6 +924,7 @@
 				C380572A1F107C6A009BC4BC /* XLQuadrantChart.m in Sources */,
 				C380571D1F107C6A009BC4BC /* XLAxisChart.m in Sources */,
 				C380573D1F107C6A009BC4BC /* XLTimeLineChart.m in Sources */,
+				C38057931F108C78009BC4BC /* UIColor+XLUIColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
