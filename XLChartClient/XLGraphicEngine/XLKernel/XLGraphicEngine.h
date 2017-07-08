@@ -100,9 +100,8 @@ typedef struct _RoundRectangleAttr
  *
  * @param endPoint  结束点
  *
- * @param propery  线条的属性 nil时使用默认的
+ * @param pPropery  线条的属性 nil时使用默认的
  *
- * @return nil
  */
 -(void)mDrawLineStartPoint:(CGPoint)startPoint EndPoint:(CGPoint)endPoint LineProperty:(PLineProperty)pPropery;
 /**
@@ -114,19 +113,17 @@ typedef struct _RoundRectangleAttr
  *
  * @param strokeColor  绘制的颜色
  *
- * @return nil
  */
 -(void)mDrawLineStartPoint:(CGPoint)startPoint EndPoint:(CGPoint)endPoint strokeColor:(CGCOLOR)strokeColor;
 /**
  *  增加一条直线（注意不是画在设备上，与直接画在设备上存在像素偏差）
  *
- * @param telphone  开始点
+ * @param startPoint  开始点
  *
- * @param password  结束点
+ * @param endPoint  结束点
  *
- * @param propery  线条的属性 nil时使用默认的
+ * @param pPropery  线条的属性 nil时使用默认的
  *
- * @return nil
  */
 -(void)mAddLineStartPoint:(CGPoint)startPoint EndPoint:(CGPoint)endPoint LineProperty:(PLineProperty)pPropery;
 
@@ -139,10 +136,6 @@ typedef struct _RoundRectangleAttr
  *
  * @param textAttr  文本属性 nil时使用默认的
  *
- * @return nil
- *
- * @see
- * @see
  */
 -(void)mDrawDecimalText:(NSString* )text Point:(CGPoint)point textAttr:(NSDictionary*)textAttr;
 /**
@@ -154,10 +147,6 @@ typedef struct _RoundRectangleAttr
  *
  * @param textAttr  文本属性 nil时使用默认的
  *
- * @return nil
- *
- * @see
- * @see
  */
 -(void)mDrawText:(NSString*)text Point:(CGPoint)point textAttr:(NSDictionary*)textAttr;
 /**
@@ -169,8 +158,6 @@ typedef struct _RoundRectangleAttr
  *
  * @return nil
  *
- * @see
- * @see
  */
 -(CGSize)mCalcuateTextSizeText:(NSString*)str textAttr:(NSDictionary*)textAttr;
 /**
@@ -178,12 +165,8 @@ typedef struct _RoundRectangleAttr
  *
  * @param point  绘制的位置
  *
- * @param circAttrs  绘制的属性 nil时使用默认的
+ * @param circAttr  绘制的属性 nil时使用默认的
  *
- * @return nil
- *
- * @see
- * @see
  */
 -(void)mDrawCirclePoint:(CGPoint)point circleAttrs:(PCircleAttr)circAttr;
 /**
@@ -195,10 +178,6 @@ typedef struct _RoundRectangleAttr
  *
  * @param arrowAttr  箭头属性 nil时使用默认的
  *
- * @return nil
- *
- * @see
- * @see
  */
 
 -(void)mDrawArrowStartPoint:(CGPoint)startPoint EndPoint:(CGPoint)endPoint arrowAttr:(PArrowAttr)arrowAttr;
@@ -209,24 +188,16 @@ typedef struct _RoundRectangleAttr
  *
  * @param pRectaAttr  矩形属性 nil时使用默认的
  *
- * @return 如果验证成功还回true,否则false
- *
- * @see
- * @see
  */
 
 -(void)mDrawRectangle:(CGRect)rect RectangleAttr:(PRectangleAttr)pRectaAttr;
 /**
  *  填充一个一个普通的矩形
  *
- * @param point  绘制的位置
+ * @param rect  绘制的位置
  *
- * @param circAttrs  绘制的属性 nil时使用默认的
+ * @param pRectaAttr  绘制的属性 nil时使用默认的
  *
- * @return nil
- *
- * @see
- * @see
  */
 -(void)mFillRectangle:(CGRect)rect RectangleAttr:(PRectangleAttr)pRectaAttr;
 /**
@@ -236,10 +207,6 @@ typedef struct _RoundRectangleAttr
  *
  * @param pRoundRectaAttr  圆角继续属性 nil时使用默认的
  *
- * @return 如果验证成功还回true,否则false
- *
- * @see
- * @see
  */
 -(void)mDrawRoundRectangle:(CGRect)rect RoundRectangleAttr:(PRoundRectangleAttr)pRoundRectaAttr;
 /**
@@ -250,8 +217,6 @@ typedef struct _RoundRectangleAttr
  * @param pRoundRectaAttr  圆角继续属性 nil时使用默认的
  *
  * @param uFillColor  填充颜色
- * @see
- * @see
  */
 -(void)mFillRoundRectangle:(CGRect)rect RoundRectangleAttr:(PRoundRectangleAttr)pRoundRectaAttr fillColor:(UIColor*)uFillColor;
 /**
@@ -264,7 +229,6 @@ typedef struct _RoundRectangleAttr
  * @param tPoint  第三个点
  *
  * @param uFillColor  填充颜色
- * @see
  */
 -(void)mFillTriangle:(CGPoint)fPoint secondPoint:(CGPoint)sPoint thirdPoint:(CGPoint)tPoint fillColor:(UIColor*)uFillColor;
 /**
@@ -274,10 +238,6 @@ typedef struct _RoundRectangleAttr
  *
  * @param text  显示的文字
  *
- * @return nil
- *
- * @see
- * @see
  */
 -(void)mDrawBuddle:(CGPoint)point text:(NSString*)text;
 
