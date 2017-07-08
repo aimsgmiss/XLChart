@@ -1,4 +1,5 @@
 # XLChart
 
-![image](https://github.com/aimsgmiss/XLChart/blob/master/XLChart/XLChartClient/ScreenShots/XLPieChart.gif
+https://github.com/aimsgmiss/XLChart/tree/master/XLChartClient/ScreenShots
+![image](https://github.com/aimsgmiss/XLChart/tree/master/XLChartClient/ScreenShots/XLPieChart.gif
 )
