@@ -1,7 +1,7 @@
 # XLChart
 XLChart is very useful and easy for current data analyse, you can download it everywhere and any time for free
-Thanks to MJEXtension that i used to convert from json to model,XLChart that cost me severl months to desin and code,but it still has long way to go,I hope that someone would like to join me to accomplish it,if you found any bug please contact me!
-329672851@qq.com
+Thanks to MJEXtension that i used to convert from json to model,it provide convenient method for me,XLChart that cost me several months to desin and code,but it still has long way to go,I hope that someone would like to join me to accomplish the rest of it,if you found any bug ,please contact me with 329672851@qq.com of email.
+
 ![image](https://github.com/aimsgmiss/XLChart/blob/master/XLChartClient/ScreenShots/XLPieChart.gif)
 
 ![image](https://github.com/aimsgmiss/XLChart/blob/master/XLChartClient/ScreenShots/XLQuadrantChart.gif)
@@ -17,6 +17,7 @@ Thanks to MJEXtension that i used to convert from json to model,XLChart that cos
 
 ![image](https://github.com/aimsgmiss/XLChart/blob/master/XLChartClient/ScreenShots/XLRadarChart.gif)
 
+At first,bar chart and line chart had been divided by it basic forms.
 ![image](https://github.com/aimsgmiss/XLChart/blob/master/XLChartClient/ScreenShots/XLBarLineChart.gif)
 
 
