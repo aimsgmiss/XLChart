@@ -398,31 +398,32 @@
 			children = (
 				C354D3681F0F6FF3000AA733 /* define.h */,
 				C354D3851F0F6FF3000AA733 /* XLChart.h */,
-				C354D3691F0F6FF3000AA733 /* XLAxisChart(轴线图) */,
-				C354D3711F0F6FF3000AA733 /* XLBarChart(柱状图图) */,
-				C354D37D1F0F6FF3000AA733 /* XLBaseChart(基类图) */,
+				C354D3691F0F6FF3000AA733 /* XLAxisChart */,
+				C354D3711F0F6FF3000AA733 /* XLBarChart */,
+				C354D37D1F0F6FF3000AA733 /* XLBaseChart */,
 				C354D3861F0F6FF3000AA733 /* XLExtension */,
 				C354D38B1F0F6FF3000AA733 /* XLKernel */,
-				C354D3901F0F6FF3000AA733 /* XLLineChart(折线图) */,
-				C354D3941F0F6FF3000AA733 /* XLPieChart(饼图) */,
-				C354D39E1F0F6FF3000AA733 /* XLPopupChart(弹出图) */,
-				C354D3A61F0F6FF3000AA733 /* XLQudrantChart(象限图) */,
-				C354D3B91F0F6FF3000AA733 /* XLRadarChart(雷达图) */,
-				C354D3C11F0F6FF3000AA733 /* XLSegmentChart(分类图) */,
-				C354D3CB1F0F6FF3000AA733 /* XLTableChart(表格图) */,
-				C354D3DB1F0F6FF3000AA733 /* XLTimeLineChart(时间轴图) */,
-				C354D3E91F0F6FF3000AA733 /* XLTitleRectangleChart(标题说明图) */,
+				C354D3901F0F6FF3000AA733 /* XLLineChart */,
+				C354D3941F0F6FF3000AA733 /* XLPieChart */,
+				C354D39E1F0F6FF3000AA733 /* XLPopupChart */,
+				C354D3A61F0F6FF3000AA733 /* XLQudrantChart */,
+				C354D3B91F0F6FF3000AA733 /* XLRadarChart */,
+				C354D3C11F0F6FF3000AA733 /* XLSegmentChart */,
+				C354D3CB1F0F6FF3000AA733 /* XLTableChart */,
+				C354D3DB1F0F6FF3000AA733 /* XLTimeLineChart */,
+				C354D3E91F0F6FF3000AA733 /* XLTitleRectangleChart */,
 			);
 			path = XLGraphicEngine;
 			sourceTree = "<group>";
 		};
-		C354D3691F0F6FF3000AA733 /* XLAxisChart(轴线图) */ = {
+		C354D3691F0F6FF3000AA733 /* XLAxisChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D36A1F0F6FF3000AA733 /* Model */,
 				C354D36D1F0F6FF3000AA733 /* View */,
 				C354D3701F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLAxisChart;
 			path = "XLAxisChart(轴线图)";
 			sourceTree = "<group>";
 		};
@@ -451,13 +452,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C354D3711F0F6FF3000AA733 /* XLBarChart(柱状图图) */ = {
+		C354D3711F0F6FF3000AA733 /* XLBarChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D3721F0F6FF3000AA733 /* Model */,
 				C354D3751F0F6FF3000AA733 /* View */,
 				C354D37C1F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLBarChart;
 			path = "XLBarChart(柱状图图)";
 			sourceTree = "<group>";
 		};
@@ -490,13 +492,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C354D37D1F0F6FF3000AA733 /* XLBaseChart(基类图) */ = {
+		C354D37D1F0F6FF3000AA733 /* XLBaseChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D37E1F0F6FF3000AA733 /* Model */,
 				C354D3811F0F6FF3000AA733 /* View */,
 				C354D3841F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLBaseChart;
 			path = "XLBaseChart(基类图)";
 			sourceTree = "<group>";
 		};
@@ -547,13 +550,14 @@
 			path = XLKernel;
 			sourceTree = "<group>";
 		};
-		C354D3901F0F6FF3000AA733 /* XLLineChart(折线图) */ = {
+		C354D3901F0F6FF3000AA733 /* XLLineChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D3911F0F6FF3000AA733 /* Model */,
 				C354D3921F0F6FF3000AA733 /* View */,
 				C354D3931F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLLineChart;
 			path = "XLLineChart(折线图)";
 			sourceTree = "<group>";
 		};
@@ -578,13 +582,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C354D3941F0F6FF3000AA733 /* XLPieChart(饼图) */ = {
+		C354D3941F0F6FF3000AA733 /* XLPieChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D3951F0F6FF3000AA733 /* Model */,
 				C354D3981F0F6FF3000AA733 /* View */,
 				C354D39D1F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLPieChart;
 			path = "XLPieChart(饼图)";
 			sourceTree = "<group>";
 		};
@@ -615,13 +620,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C354D39E1F0F6FF3000AA733 /* XLPopupChart(弹出图) */ = {
+		C354D39E1F0F6FF3000AA733 /* XLPopupChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D39F1F0F6FF3000AA733 /* Model */,
 				C354D3A21F0F6FF3000AA733 /* View */,
 				C354D3A51F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLPopupChart;
 			path = "XLPopupChart(弹出图)";
 			sourceTree = "<group>";
 		};
@@ -650,13 +656,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C354D3A61F0F6FF3000AA733 /* XLQudrantChart(象限图) */ = {
+		C354D3A61F0F6FF3000AA733 /* XLQudrantChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D3A71F0F6FF3000AA733 /* Model */,
 				C354D3B01F0F6FF3000AA733 /* View */,
 				C354D3B81F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLQudrantChart;
 			path = "XLQudrantChart(象限图)";
 			sourceTree = "<group>";
 		};
@@ -696,13 +703,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C354D3B91F0F6FF3000AA733 /* XLRadarChart(雷达图) */ = {
+		C354D3B91F0F6FF3000AA733 /* XLRadarChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D3BA1F0F6FF3000AA733 /* Model */,
 				C354D3BD1F0F6FF3000AA733 /* View */,
 				C354D3C01F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLRadarChart;
 			path = "XLRadarChart(雷达图)";
 			sourceTree = "<group>";
 		};
@@ -731,13 +739,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C354D3C11F0F6FF3000AA733 /* XLSegmentChart(分类图) */ = {
+		C354D3C11F0F6FF3000AA733 /* XLSegmentChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D3C21F0F6FF3000AA733 /* Model */,
 				C354D3C51F0F6FF3000AA733 /* View */,
 				C354D3CA1F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLSegmentChart;
 			path = "XLSegmentChart(分类图)";
 			sourceTree = "<group>";
 		};
@@ -768,13 +777,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C354D3CB1F0F6FF3000AA733 /* XLTableChart(表格图) */ = {
+		C354D3CB1F0F6FF3000AA733 /* XLTableChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D3CC1F0F6FF3000AA733 /* Model */,
 				C354D3CF1F0F6FF3000AA733 /* View */,
 				C354D3DA1F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLTableChart;
 			path = "XLTableChart(表格图)";
 			sourceTree = "<group>";
 		};
@@ -811,13 +821,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C354D3DB1F0F6FF3000AA733 /* XLTimeLineChart(时间轴图) */ = {
+		C354D3DB1F0F6FF3000AA733 /* XLTimeLineChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D3DC1F0F6FF3000AA733 /* Model */,
 				C354D3DF1F0F6FF3000AA733 /* View */,
 				C354D3E61F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLTimeLineChart;
 			path = "XLTimeLineChart(时间轴图)";
 			sourceTree = "<group>";
 		};
@@ -852,13 +863,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C354D3E91F0F6FF3000AA733 /* XLTitleRectangleChart(标题说明图) */ = {
+		C354D3E91F0F6FF3000AA733 /* XLTitleRectangleChart */ = {
 			isa = PBXGroup;
 			children = (
 				C354D3EA1F0F6FF3000AA733 /* Model */,
 				C354D3ED1F0F6FF3000AA733 /* View */,
 				C354D3F01F0F6FF3000AA733 /* ViewController */,
 			);
+			name = XLTitleRectangleChart;
 			path = "XLTitleRectangleChart(标题说明图)";
 			sourceTree = "<group>";
 		};
