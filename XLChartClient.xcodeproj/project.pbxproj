@@ -20,135 +20,45 @@
 		C354D25A1F0F2FE1000AA733 /* MainFoldingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D2591F0F2FE1000AA733 /* MainFoldingCell.m */; };
 		C354D25B1F0F2FE1000AA733 /* MainFoldingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D2591F0F2FE1000AA733 /* MainFoldingCell.m */; };
 		C354D25C1F0F2FE1000AA733 /* MainFoldingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D2591F0F2FE1000AA733 /* MainFoldingCell.m */; };
-		C354D3F11F0F6FF3000AA733 /* XLAxisM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D36C1F0F6FF3000AA733 /* XLAxisM.m */; };
-		C354D3F21F0F6FF3000AA733 /* XLAxisM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D36C1F0F6FF3000AA733 /* XLAxisM.m */; };
-		C354D3F31F0F6FF3000AA733 /* XLAxisM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D36C1F0F6FF3000AA733 /* XLAxisM.m */; };
-		C354D3F41F0F6FF3000AA733 /* XLAxisChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D36F1F0F6FF3000AA733 /* XLAxisChart.m */; };
-		C354D3F51F0F6FF3000AA733 /* XLAxisChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D36F1F0F6FF3000AA733 /* XLAxisChart.m */; };
-		C354D3F61F0F6FF3000AA733 /* XLAxisChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D36F1F0F6FF3000AA733 /* XLAxisChart.m */; };
-		C354D3F71F0F6FF3000AA733 /* XLBarLineChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3741F0F6FF3000AA733 /* XLBarLineChartM.m */; };
-		C354D3F81F0F6FF3000AA733 /* XLBarLineChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3741F0F6FF3000AA733 /* XLBarLineChartM.m */; };
-		C354D3F91F0F6FF3000AA733 /* XLBarLineChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3741F0F6FF3000AA733 /* XLBarLineChartM.m */; };
-		C354D3FA1F0F6FF3000AA733 /* XLBarLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3771F0F6FF3000AA733 /* XLBarLineChart.m */; };
-		C354D3FB1F0F6FF3000AA733 /* XLBarLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3771F0F6FF3000AA733 /* XLBarLineChart.m */; };
-		C354D3FC1F0F6FF3000AA733 /* XLBarLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3771F0F6FF3000AA733 /* XLBarLineChart.m */; };
-		C354D3FD1F0F6FF3000AA733 /* XLBarLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3791F0F6FF3000AA733 /* XLBarLineChartCell.m */; };
-		C354D3FE1F0F6FF3000AA733 /* XLBarLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3791F0F6FF3000AA733 /* XLBarLineChartCell.m */; };
-		C354D3FF1F0F6FF3000AA733 /* XLBarLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3791F0F6FF3000AA733 /* XLBarLineChartCell.m */; };
-		C354D4001F0F6FF3000AA733 /* XLBarLineChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D37B1F0F6FF3000AA733 /* XLBarLineChartDetail.m */; };
-		C354D4011F0F6FF3000AA733 /* XLBarLineChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D37B1F0F6FF3000AA733 /* XLBarLineChartDetail.m */; };
-		C354D4021F0F6FF3000AA733 /* XLBarLineChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D37B1F0F6FF3000AA733 /* XLBarLineChartDetail.m */; };
-		C354D4031F0F6FF3000AA733 /* XLBaseM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3801F0F6FF3000AA733 /* XLBaseM.m */; };
-		C354D4041F0F6FF3000AA733 /* XLBaseM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3801F0F6FF3000AA733 /* XLBaseM.m */; };
-		C354D4051F0F6FF3000AA733 /* XLBaseM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3801F0F6FF3000AA733 /* XLBaseM.m */; };
-		C354D4061F0F6FF3000AA733 /* XLBaseChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3831F0F6FF3000AA733 /* XLBaseChart.m */; };
-		C354D4071F0F6FF3000AA733 /* XLBaseChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3831F0F6FF3000AA733 /* XLBaseChart.m */; };
-		C354D4081F0F6FF3000AA733 /* XLBaseChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3831F0F6FF3000AA733 /* XLBaseChart.m */; };
-		C354D4091F0F6FF3000AA733 /* UIColor+XLUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3881F0F6FF3000AA733 /* UIColor+XLUIColor.m */; };
-		C354D40A1F0F6FF3000AA733 /* UIColor+XLUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3881F0F6FF3000AA733 /* UIColor+XLUIColor.m */; };
-		C354D40B1F0F6FF3000AA733 /* UIColor+XLUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3881F0F6FF3000AA733 /* UIColor+XLUIColor.m */; };
-		C354D40C1F0F6FF3000AA733 /* UIView+ICoo.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D38A1F0F6FF3000AA733 /* UIView+ICoo.m */; };
-		C354D40D1F0F6FF3000AA733 /* UIView+ICoo.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D38A1F0F6FF3000AA733 /* UIView+ICoo.m */; };
-		C354D40E1F0F6FF3000AA733 /* UIView+ICoo.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D38A1F0F6FF3000AA733 /* UIView+ICoo.m */; };
-		C354D40F1F0F6FF3000AA733 /* CRoutines.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D38D1F0F6FF3000AA733 /* CRoutines.m */; };
-		C354D4101F0F6FF3000AA733 /* CRoutines.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D38D1F0F6FF3000AA733 /* CRoutines.m */; };
-		C354D4111F0F6FF3000AA733 /* CRoutines.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D38D1F0F6FF3000AA733 /* CRoutines.m */; };
-		C354D4121F0F6FF3000AA733 /* XLGraphicEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D38F1F0F6FF3000AA733 /* XLGraphicEngine.m */; };
-		C354D4131F0F6FF3000AA733 /* XLGraphicEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D38F1F0F6FF3000AA733 /* XLGraphicEngine.m */; };
-		C354D4141F0F6FF3000AA733 /* XLGraphicEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D38F1F0F6FF3000AA733 /* XLGraphicEngine.m */; };
-		C354D4151F0F6FF3000AA733 /* XLPieChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3971F0F6FF3000AA733 /* XLPieChartM.m */; };
-		C354D4161F0F6FF3000AA733 /* XLPieChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3971F0F6FF3000AA733 /* XLPieChartM.m */; };
-		C354D4171F0F6FF3000AA733 /* XLPieChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3971F0F6FF3000AA733 /* XLPieChartM.m */; };
-		C354D4181F0F6FF3000AA733 /* XLPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D39A1F0F6FF3000AA733 /* XLPieChart.m */; };
-		C354D4191F0F6FF3000AA733 /* XLPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D39A1F0F6FF3000AA733 /* XLPieChart.m */; };
-		C354D41A1F0F6FF3000AA733 /* XLPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D39A1F0F6FF3000AA733 /* XLPieChart.m */; };
-		C354D41B1F0F6FF3000AA733 /* XLPieContentChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D39C1F0F6FF3000AA733 /* XLPieContentChart.m */; };
-		C354D41C1F0F6FF3000AA733 /* XLPieContentChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D39C1F0F6FF3000AA733 /* XLPieContentChart.m */; };
-		C354D41D1F0F6FF3000AA733 /* XLPieContentChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D39C1F0F6FF3000AA733 /* XLPieContentChart.m */; };
-		C354D41E1F0F6FF3000AA733 /* XLPopupChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3A11F0F6FF3000AA733 /* XLPopupChartM.m */; };
-		C354D41F1F0F6FF3000AA733 /* XLPopupChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3A11F0F6FF3000AA733 /* XLPopupChartM.m */; };
-		C354D4201F0F6FF3000AA733 /* XLPopupChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3A11F0F6FF3000AA733 /* XLPopupChartM.m */; };
-		C354D4211F0F6FF3000AA733 /* XLPopupChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3A41F0F6FF3000AA733 /* XLPopupChart.m */; };
-		C354D4221F0F6FF3000AA733 /* XLPopupChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3A41F0F6FF3000AA733 /* XLPopupChart.m */; };
-		C354D4231F0F6FF3000AA733 /* XLPopupChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3A41F0F6FF3000AA733 /* XLPopupChart.m */; };
-		C354D4241F0F6FF3000AA733 /* XLQuadrantButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3A91F0F6FF3000AA733 /* XLQuadrantButton.m */; };
-		C354D4251F0F6FF3000AA733 /* XLQuadrantButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3A91F0F6FF3000AA733 /* XLQuadrantButton.m */; };
-		C354D4261F0F6FF3000AA733 /* XLQuadrantButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3A91F0F6FF3000AA733 /* XLQuadrantButton.m */; };
-		C354D4271F0F6FF3000AA733 /* XLQuadrantChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3AB1F0F6FF3000AA733 /* XLQuadrantChart.m */; };
-		C354D4281F0F6FF3000AA733 /* XLQuadrantChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3AB1F0F6FF3000AA733 /* XLQuadrantChart.m */; };
-		C354D4291F0F6FF3000AA733 /* XLQuadrantChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3AB1F0F6FF3000AA733 /* XLQuadrantChart.m */; };
-		C354D42A1F0F6FF3000AA733 /* XLQuadrantM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3AD1F0F6FF3000AA733 /* XLQuadrantM.m */; };
-		C354D42B1F0F6FF3000AA733 /* XLQuadrantM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3AD1F0F6FF3000AA733 /* XLQuadrantM.m */; };
-		C354D42C1F0F6FF3000AA733 /* XLQuadrantM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3AD1F0F6FF3000AA733 /* XLQuadrantM.m */; };
-		C354D42D1F0F6FF3000AA733 /* XLQuadrantRectangleM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3AF1F0F6FF3000AA733 /* XLQuadrantRectangleM.m */; };
-		C354D42E1F0F6FF3000AA733 /* XLQuadrantRectangleM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3AF1F0F6FF3000AA733 /* XLQuadrantRectangleM.m */; };
-		C354D42F1F0F6FF3000AA733 /* XLQuadrantRectangleM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3AF1F0F6FF3000AA733 /* XLQuadrantRectangleM.m */; };
-		C354D4301F0F6FF3000AA733 /* XLQuadrantArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3B21F0F6FF3000AA733 /* XLQuadrantArrowLabel.m */; };
-		C354D4311F0F6FF3000AA733 /* XLQuadrantArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3B21F0F6FF3000AA733 /* XLQuadrantArrowLabel.m */; };
-		C354D4321F0F6FF3000AA733 /* XLQuadrantArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3B21F0F6FF3000AA733 /* XLQuadrantArrowLabel.m */; };
-		C354D4331F0F6FF3000AA733 /* XLQuadrantChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3B41F0F6FF3000AA733 /* XLQuadrantChartDetail.m */; };
-		C354D4341F0F6FF3000AA733 /* XLQuadrantChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3B41F0F6FF3000AA733 /* XLQuadrantChartDetail.m */; };
-		C354D4351F0F6FF3000AA733 /* XLQuadrantChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3B41F0F6FF3000AA733 /* XLQuadrantChartDetail.m */; };
-		C354D4361F0F6FF3000AA733 /* XLQuadrantTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3B61F0F6FF3000AA733 /* XLQuadrantTableViewCell.m */; };
-		C354D4371F0F6FF3000AA733 /* XLQuadrantTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3B61F0F6FF3000AA733 /* XLQuadrantTableViewCell.m */; };
-		C354D4381F0F6FF3000AA733 /* XLQuadrantTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3B61F0F6FF3000AA733 /* XLQuadrantTableViewCell.m */; };
-		C354D4391F0F6FF3000AA733 /* XLQuadrantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C354D3B71F0F6FF3000AA733 /* XLQuadrantTableViewCell.xib */; };
-		C354D43A1F0F6FF3000AA733 /* XLQuadrantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C354D3B71F0F6FF3000AA733 /* XLQuadrantTableViewCell.xib */; };
-		C354D43B1F0F6FF3000AA733 /* XLQuadrantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C354D3B71F0F6FF3000AA733 /* XLQuadrantTableViewCell.xib */; };
-		C354D43C1F0F6FF3000AA733 /* XLRadarM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3BC1F0F6FF3000AA733 /* XLRadarM.m */; };
-		C354D43D1F0F6FF3000AA733 /* XLRadarM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3BC1F0F6FF3000AA733 /* XLRadarM.m */; };
-		C354D43E1F0F6FF3000AA733 /* XLRadarM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3BC1F0F6FF3000AA733 /* XLRadarM.m */; };
-		C354D43F1F0F6FF3000AA733 /* XLRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3BF1F0F6FF3000AA733 /* XLRadarChart.m */; };
-		C354D4401F0F6FF3000AA733 /* XLRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3BF1F0F6FF3000AA733 /* XLRadarChart.m */; };
-		C354D4411F0F6FF3000AA733 /* XLRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3BF1F0F6FF3000AA733 /* XLRadarChart.m */; };
-		C354D4421F0F6FF3000AA733 /* XLSegmentCellM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3C41F0F6FF3000AA733 /* XLSegmentCellM.m */; };
-		C354D4431F0F6FF3000AA733 /* XLSegmentCellM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3C41F0F6FF3000AA733 /* XLSegmentCellM.m */; };
-		C354D4441F0F6FF3000AA733 /* XLSegmentCellM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3C41F0F6FF3000AA733 /* XLSegmentCellM.m */; };
-		C354D4451F0F6FF3000AA733 /* XLSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3C71F0F6FF3000AA733 /* XLSegmentCell.m */; };
-		C354D4461F0F6FF3000AA733 /* XLSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3C71F0F6FF3000AA733 /* XLSegmentCell.m */; };
-		C354D4471F0F6FF3000AA733 /* XLSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3C71F0F6FF3000AA733 /* XLSegmentCell.m */; };
-		C354D4481F0F6FF3000AA733 /* XLSegmentChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3C91F0F6FF3000AA733 /* XLSegmentChart.m */; };
-		C354D4491F0F6FF3000AA733 /* XLSegmentChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3C91F0F6FF3000AA733 /* XLSegmentChart.m */; };
-		C354D44A1F0F6FF3000AA733 /* XLSegmentChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3C91F0F6FF3000AA733 /* XLSegmentChart.m */; };
-		C354D44B1F0F6FF3000AA733 /* XLTableCellM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3CE1F0F6FF3000AA733 /* XLTableCellM.m */; };
-		C354D44C1F0F6FF3000AA733 /* XLTableCellM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3CE1F0F6FF3000AA733 /* XLTableCellM.m */; };
-		C354D44D1F0F6FF3000AA733 /* XLTableCellM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3CE1F0F6FF3000AA733 /* XLTableCellM.m */; };
-		C354D44E1F0F6FF3000AA733 /* XLTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D11F0F6FF3000AA733 /* XLTableChart.m */; };
-		C354D44F1F0F6FF3000AA733 /* XLTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D11F0F6FF3000AA733 /* XLTableChart.m */; };
-		C354D4501F0F6FF3000AA733 /* XLTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D11F0F6FF3000AA733 /* XLTableChart.m */; };
-		C354D4511F0F6FF3000AA733 /* XLTableChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D31F0F6FF3000AA733 /* XLTableChartCell.m */; };
-		C354D4521F0F6FF3000AA733 /* XLTableChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D31F0F6FF3000AA733 /* XLTableChartCell.m */; };
-		C354D4531F0F6FF3000AA733 /* XLTableChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D31F0F6FF3000AA733 /* XLTableChartCell.m */; };
-		C354D4541F0F6FF3000AA733 /* XLTableChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D51F0F6FF3000AA733 /* XLTableChartDetail.m */; };
-		C354D4551F0F6FF3000AA733 /* XLTableChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D51F0F6FF3000AA733 /* XLTableChartDetail.m */; };
-		C354D4561F0F6FF3000AA733 /* XLTableChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D51F0F6FF3000AA733 /* XLTableChartDetail.m */; };
-		C354D4571F0F6FF3000AA733 /* XLTableChartFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D71F0F6FF3000AA733 /* XLTableChartFooter.m */; };
-		C354D4581F0F6FF3000AA733 /* XLTableChartFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D71F0F6FF3000AA733 /* XLTableChartFooter.m */; };
-		C354D4591F0F6FF3000AA733 /* XLTableChartFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D71F0F6FF3000AA733 /* XLTableChartFooter.m */; };
-		C354D45A1F0F6FF3000AA733 /* XLTableChartHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D91F0F6FF3000AA733 /* XLTableChartHeader.m */; };
-		C354D45B1F0F6FF3000AA733 /* XLTableChartHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D91F0F6FF3000AA733 /* XLTableChartHeader.m */; };
-		C354D45C1F0F6FF3000AA733 /* XLTableChartHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3D91F0F6FF3000AA733 /* XLTableChartHeader.m */; };
-		C354D45D1F0F6FF3000AA733 /* XLTimeLineM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3DE1F0F6FF3000AA733 /* XLTimeLineM.m */; };
-		C354D45E1F0F6FF3000AA733 /* XLTimeLineM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3DE1F0F6FF3000AA733 /* XLTimeLineM.m */; };
-		C354D45F1F0F6FF3000AA733 /* XLTimeLineM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3DE1F0F6FF3000AA733 /* XLTimeLineM.m */; };
-		C354D4601F0F6FF3000AA733 /* XLTimeLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E11F0F6FF3000AA733 /* XLTimeLineChart.m */; };
-		C354D4611F0F6FF3000AA733 /* XLTimeLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E11F0F6FF3000AA733 /* XLTimeLineChart.m */; };
-		C354D4621F0F6FF3000AA733 /* XLTimeLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E11F0F6FF3000AA733 /* XLTimeLineChart.m */; };
-		C354D4631F0F6FF3000AA733 /* XLTimeLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E31F0F6FF3000AA733 /* XLTimeLineChartCell.m */; };
-		C354D4641F0F6FF3000AA733 /* XLTimeLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E31F0F6FF3000AA733 /* XLTimeLineChartCell.m */; };
-		C354D4651F0F6FF3000AA733 /* XLTimeLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E31F0F6FF3000AA733 /* XLTimeLineChartCell.m */; };
-		C354D4661F0F6FF3000AA733 /* XLTimeLineDetailChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E51F0F6FF3000AA733 /* XLTimeLineDetailChart.m */; };
-		C354D4671F0F6FF3000AA733 /* XLTimeLineDetailChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E51F0F6FF3000AA733 /* XLTimeLineDetailChart.m */; };
-		C354D4681F0F6FF3000AA733 /* XLTimeLineDetailChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E51F0F6FF3000AA733 /* XLTimeLineDetailChart.m */; };
-		C354D4691F0F6FF3000AA733 /* XLTimeLineChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E81F0F6FF3000AA733 /* XLTimeLineChartVC.m */; };
-		C354D46A1F0F6FF3000AA733 /* XLTimeLineChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E81F0F6FF3000AA733 /* XLTimeLineChartVC.m */; };
-		C354D46B1F0F6FF3000AA733 /* XLTimeLineChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3E81F0F6FF3000AA733 /* XLTimeLineChartVC.m */; };
-		C354D46C1F0F6FF3000AA733 /* XLTitleRectangleM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3EC1F0F6FF3000AA733 /* XLTitleRectangleM.m */; };
-		C354D46D1F0F6FF3000AA733 /* XLTitleRectangleM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3EC1F0F6FF3000AA733 /* XLTitleRectangleM.m */; };
-		C354D46E1F0F6FF3000AA733 /* XLTitleRectangleM.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3EC1F0F6FF3000AA733 /* XLTitleRectangleM.m */; };
-		C354D46F1F0F6FF3000AA733 /* XLTitleRectangleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3EF1F0F6FF3000AA733 /* XLTitleRectangleChart.m */; };
-		C354D4701F0F6FF3000AA733 /* XLTitleRectangleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3EF1F0F6FF3000AA733 /* XLTitleRectangleChart.m */; };
-		C354D4711F0F6FF3000AA733 /* XLTitleRectangleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C354D3EF1F0F6FF3000AA733 /* XLTitleRectangleChart.m */; };
+		C380571C1F107C6A009BC4BC /* XLAxisM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056AE1F107C6A009BC4BC /* XLAxisM.m */; };
+		C380571D1F107C6A009BC4BC /* XLAxisChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056B11F107C6A009BC4BC /* XLAxisChart.m */; };
+		C380571E1F107C6A009BC4BC /* XLBarLineChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056B51F107C6A009BC4BC /* XLBarLineChartM.m */; };
+		C380571F1F107C6A009BC4BC /* XLBarLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056B81F107C6A009BC4BC /* XLBarLineChart.m */; };
+		C38057201F107C6A009BC4BC /* XLBarLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056BA1F107C6A009BC4BC /* XLBarLineChartCell.m */; };
+		C38057211F107C6A009BC4BC /* XLBarLineChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056BC1F107C6A009BC4BC /* XLBarLineChartDetail.m */; };
+		C38057221F107C6A009BC4BC /* XLBaseM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056C01F107C6A009BC4BC /* XLBaseM.m */; };
+		C38057231F107C6A009BC4BC /* XLBaseChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056C31F107C6A009BC4BC /* XLBaseChart.m */; };
+		C38057241F107C6A009BC4BC /* XLPieChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056C91F107C6A009BC4BC /* XLPieChartM.m */; };
+		C38057251F107C6A009BC4BC /* XLPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056CC1F107C6A009BC4BC /* XLPieChart.m */; };
+		C38057261F107C6A009BC4BC /* XLPieContentChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056CE1F107C6A009BC4BC /* XLPieContentChart.m */; };
+		C38057271F107C6A009BC4BC /* XLPopupChartM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056D21F107C6A009BC4BC /* XLPopupChartM.m */; };
+		C38057281F107C6A009BC4BC /* XLPopupChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056D51F107C6A009BC4BC /* XLPopupChart.m */; };
+		C38057291F107C6A009BC4BC /* XLQuadrantButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056D91F107C6A009BC4BC /* XLQuadrantButton.m */; };
+		C380572A1F107C6A009BC4BC /* XLQuadrantChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056DB1F107C6A009BC4BC /* XLQuadrantChart.m */; };
+		C380572B1F107C6A009BC4BC /* XLQuadrantM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056DD1F107C6A009BC4BC /* XLQuadrantM.m */; };
+		C380572C1F107C6A009BC4BC /* XLQuadrantRectangleM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056DF1F107C6A009BC4BC /* XLQuadrantRectangleM.m */; };
+		C380572D1F107C6A009BC4BC /* XLQuadrantArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056E21F107C6A009BC4BC /* XLQuadrantArrowLabel.m */; };
+		C380572E1F107C6A009BC4BC /* XLQuadrantChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056E41F107C6A009BC4BC /* XLQuadrantChartDetail.m */; };
+		C380572F1F107C6A009BC4BC /* XLQuadrantTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056E61F107C6A009BC4BC /* XLQuadrantTableViewCell.m */; };
+		C38057301F107C6A009BC4BC /* XLQuadrantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C38056E71F107C6A009BC4BC /* XLQuadrantTableViewCell.xib */; };
+		C38057311F107C6A009BC4BC /* XLRadarM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056EB1F107C6A009BC4BC /* XLRadarM.m */; };
+		C38057321F107C6A009BC4BC /* XLRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056EE1F107C6A009BC4BC /* XLRadarChart.m */; };
+		C38057331F107C6A009BC4BC /* XLSegmentCellM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056F21F107C6A009BC4BC /* XLSegmentCellM.m */; };
+		C38057341F107C6A009BC4BC /* XLSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056F51F107C6A009BC4BC /* XLSegmentCell.m */; };
+		C38057351F107C6A009BC4BC /* XLSegmentChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056F71F107C6A009BC4BC /* XLSegmentChart.m */; };
+		C38057361F107C6A009BC4BC /* XLTableCellM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056FB1F107C6A009BC4BC /* XLTableCellM.m */; };
+		C38057371F107C6A009BC4BC /* XLTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C38056FE1F107C6A009BC4BC /* XLTableChart.m */; };
+		C38057381F107C6A009BC4BC /* XLTableChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057001F107C6A009BC4BC /* XLTableChartCell.m */; };
+		C38057391F107C6A009BC4BC /* XLTableChartDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057021F107C6A009BC4BC /* XLTableChartDetail.m */; };
+		C380573A1F107C6A009BC4BC /* XLTableChartFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057041F107C6A009BC4BC /* XLTableChartFooter.m */; };
+		C380573B1F107C6A009BC4BC /* XLTableChartHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057061F107C6A009BC4BC /* XLTableChartHeader.m */; };
+		C380573C1F107C6A009BC4BC /* XLTimeLineM.m in Sources */ = {isa = PBXBuildFile; fileRef = C380570A1F107C6A009BC4BC /* XLTimeLineM.m */; };
+		C380573D1F107C6A009BC4BC /* XLTimeLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C380570D1F107C6A009BC4BC /* XLTimeLineChart.m */; };
+		C380573E1F107C6A009BC4BC /* XLTimeLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C380570F1F107C6A009BC4BC /* XLTimeLineChartCell.m */; };
+		C380573F1F107C6A009BC4BC /* XLTimeLineDetailChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057111F107C6A009BC4BC /* XLTimeLineDetailChart.m */; };
+		C38057401F107C6A009BC4BC /* XLTimeLineChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057141F107C6A009BC4BC /* XLTimeLineChartVC.m */; };
+		C38057411F107C6A009BC4BC /* XLTitleRectangleM.m in Sources */ = {isa = PBXBuildFile; fileRef = C38057181F107C6A009BC4BC /* XLTitleRectangleM.m */; };
+		C38057421F107C6A009BC4BC /* XLTitleRectangleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C380571B1F107C6A009BC4BC /* XLTitleRectangleChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,93 +102,83 @@
 		C31BFBA71ED028C50077A793 /* MainFoldingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainFoldingCell.xib; sourceTree = "<group>"; };
 		C354D2581F0F2FE1000AA733 /* MainFoldingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFoldingCell.h; sourceTree = "<group>"; };
 		C354D2591F0F2FE1000AA733 /* MainFoldingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFoldingCell.m; sourceTree = "<group>"; };
-		C354D3681F0F6FF3000AA733 /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
-		C354D36B1F0F6FF3000AA733 /* XLAxisM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAxisM.h; sourceTree = "<group>"; };
-		C354D36C1F0F6FF3000AA733 /* XLAxisM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAxisM.m; sourceTree = "<group>"; };
-		C354D36E1F0F6FF3000AA733 /* XLAxisChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAxisChart.h; sourceTree = "<group>"; };
-		C354D36F1F0F6FF3000AA733 /* XLAxisChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAxisChart.m; sourceTree = "<group>"; };
-		C354D3731F0F6FF3000AA733 /* XLBarLineChartM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarLineChartM.h; sourceTree = "<group>"; };
-		C354D3741F0F6FF3000AA733 /* XLBarLineChartM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarLineChartM.m; sourceTree = "<group>"; };
-		C354D3761F0F6FF3000AA733 /* XLBarLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarLineChart.h; sourceTree = "<group>"; };
-		C354D3771F0F6FF3000AA733 /* XLBarLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarLineChart.m; sourceTree = "<group>"; };
-		C354D3781F0F6FF3000AA733 /* XLBarLineChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarLineChartCell.h; sourceTree = "<group>"; };
-		C354D3791F0F6FF3000AA733 /* XLBarLineChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarLineChartCell.m; sourceTree = "<group>"; };
-		C354D37A1F0F6FF3000AA733 /* XLBarLineChartDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarLineChartDetail.h; sourceTree = "<group>"; };
-		C354D37B1F0F6FF3000AA733 /* XLBarLineChartDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarLineChartDetail.m; sourceTree = "<group>"; };
-		C354D37F1F0F6FF3000AA733 /* XLBaseM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBaseM.h; sourceTree = "<group>"; };
-		C354D3801F0F6FF3000AA733 /* XLBaseM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBaseM.m; sourceTree = "<group>"; };
-		C354D3821F0F6FF3000AA733 /* XLBaseChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBaseChart.h; sourceTree = "<group>"; };
-		C354D3831F0F6FF3000AA733 /* XLBaseChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBaseChart.m; sourceTree = "<group>"; };
-		C354D3851F0F6FF3000AA733 /* XLChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLChart.h; sourceTree = "<group>"; };
-		C354D3871F0F6FF3000AA733 /* UIColor+XLUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XLUIColor.h"; sourceTree = "<group>"; };
-		C354D3881F0F6FF3000AA733 /* UIColor+XLUIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XLUIColor.m"; sourceTree = "<group>"; };
-		C354D3891F0F6FF3000AA733 /* UIView+ICoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ICoo.h"; sourceTree = "<group>"; };
-		C354D38A1F0F6FF3000AA733 /* UIView+ICoo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ICoo.m"; sourceTree = "<group>"; };
-		C354D38C1F0F6FF3000AA733 /* CRoutines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRoutines.h; sourceTree = "<group>"; };
-		C354D38D1F0F6FF3000AA733 /* CRoutines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRoutines.m; sourceTree = "<group>"; };
-		C354D38E1F0F6FF3000AA733 /* XLGraphicEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGraphicEngine.h; sourceTree = "<group>"; };
-		C354D38F1F0F6FF3000AA733 /* XLGraphicEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGraphicEngine.m; sourceTree = "<group>"; };
-		C354D3961F0F6FF3000AA733 /* XLPieChartM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPieChartM.h; sourceTree = "<group>"; };
-		C354D3971F0F6FF3000AA733 /* XLPieChartM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPieChartM.m; sourceTree = "<group>"; };
-		C354D3991F0F6FF3000AA733 /* XLPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPieChart.h; sourceTree = "<group>"; };
-		C354D39A1F0F6FF3000AA733 /* XLPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPieChart.m; sourceTree = "<group>"; };
-		C354D39B1F0F6FF3000AA733 /* XLPieContentChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPieContentChart.h; sourceTree = "<group>"; };
-		C354D39C1F0F6FF3000AA733 /* XLPieContentChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPieContentChart.m; sourceTree = "<group>"; };
-		C354D3A01F0F6FF3000AA733 /* XLPopupChartM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPopupChartM.h; sourceTree = "<group>"; };
-		C354D3A11F0F6FF3000AA733 /* XLPopupChartM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPopupChartM.m; sourceTree = "<group>"; };
-		C354D3A31F0F6FF3000AA733 /* XLPopupChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPopupChart.h; sourceTree = "<group>"; };
-		C354D3A41F0F6FF3000AA733 /* XLPopupChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPopupChart.m; sourceTree = "<group>"; };
-		C354D3A81F0F6FF3000AA733 /* XLQuadrantButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantButton.h; sourceTree = "<group>"; };
-		C354D3A91F0F6FF3000AA733 /* XLQuadrantButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantButton.m; sourceTree = "<group>"; };
-		C354D3AA1F0F6FF3000AA733 /* XLQuadrantChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantChart.h; sourceTree = "<group>"; };
-		C354D3AB1F0F6FF3000AA733 /* XLQuadrantChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantChart.m; sourceTree = "<group>"; };
-		C354D3AC1F0F6FF3000AA733 /* XLQuadrantM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantM.h; sourceTree = "<group>"; };
-		C354D3AD1F0F6FF3000AA733 /* XLQuadrantM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantM.m; sourceTree = "<group>"; };
-		C354D3AE1F0F6FF3000AA733 /* XLQuadrantRectangleM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantRectangleM.h; sourceTree = "<group>"; };
-		C354D3AF1F0F6FF3000AA733 /* XLQuadrantRectangleM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantRectangleM.m; sourceTree = "<group>"; };
-		C354D3B11F0F6FF3000AA733 /* XLQuadrantArrowLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantArrowLabel.h; sourceTree = "<group>"; };
-		C354D3B21F0F6FF3000AA733 /* XLQuadrantArrowLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantArrowLabel.m; sourceTree = "<group>"; };
-		C354D3B31F0F6FF3000AA733 /* XLQuadrantChartDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantChartDetail.h; sourceTree = "<group>"; };
-		C354D3B41F0F6FF3000AA733 /* XLQuadrantChartDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantChartDetail.m; sourceTree = "<group>"; };
-		C354D3B51F0F6FF3000AA733 /* XLQuadrantTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantTableViewCell.h; sourceTree = "<group>"; };
-		C354D3B61F0F6FF3000AA733 /* XLQuadrantTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantTableViewCell.m; sourceTree = "<group>"; };
-		C354D3B71F0F6FF3000AA733 /* XLQuadrantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLQuadrantTableViewCell.xib; sourceTree = "<group>"; };
-		C354D3BB1F0F6FF3000AA733 /* XLRadarM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRadarM.h; sourceTree = "<group>"; };
-		C354D3BC1F0F6FF3000AA733 /* XLRadarM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRadarM.m; sourceTree = "<group>"; };
-		C354D3BE1F0F6FF3000AA733 /* XLRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRadarChart.h; sourceTree = "<group>"; };
-		C354D3BF1F0F6FF3000AA733 /* XLRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRadarChart.m; sourceTree = "<group>"; };
-		C354D3C31F0F6FF3000AA733 /* XLSegmentCellM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentCellM.h; sourceTree = "<group>"; };
-		C354D3C41F0F6FF3000AA733 /* XLSegmentCellM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSegmentCellM.m; sourceTree = "<group>"; };
-		C354D3C61F0F6FF3000AA733 /* XLSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentCell.h; sourceTree = "<group>"; };
-		C354D3C71F0F6FF3000AA733 /* XLSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSegmentCell.m; sourceTree = "<group>"; };
-		C354D3C81F0F6FF3000AA733 /* XLSegmentChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentChart.h; sourceTree = "<group>"; };
-		C354D3C91F0F6FF3000AA733 /* XLSegmentChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSegmentChart.m; sourceTree = "<group>"; };
-		C354D3CD1F0F6FF3000AA733 /* XLTableCellM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableCellM.h; sourceTree = "<group>"; };
-		C354D3CE1F0F6FF3000AA733 /* XLTableCellM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableCellM.m; sourceTree = "<group>"; };
-		C354D3D01F0F6FF3000AA733 /* XLTableChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableChart.h; sourceTree = "<group>"; };
-		C354D3D11F0F6FF3000AA733 /* XLTableChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableChart.m; sourceTree = "<group>"; };
-		C354D3D21F0F6FF3000AA733 /* XLTableChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableChartCell.h; sourceTree = "<group>"; };
-		C354D3D31F0F6FF3000AA733 /* XLTableChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableChartCell.m; sourceTree = "<group>"; };
-		C354D3D41F0F6FF3000AA733 /* XLTableChartDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableChartDetail.h; sourceTree = "<group>"; };
-		C354D3D51F0F6FF3000AA733 /* XLTableChartDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableChartDetail.m; sourceTree = "<group>"; };
-		C354D3D61F0F6FF3000AA733 /* XLTableChartFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableChartFooter.h; sourceTree = "<group>"; };
-		C354D3D71F0F6FF3000AA733 /* XLTableChartFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableChartFooter.m; sourceTree = "<group>"; };
-		C354D3D81F0F6FF3000AA733 /* XLTableChartHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableChartHeader.h; sourceTree = "<group>"; };
-		C354D3D91F0F6FF3000AA733 /* XLTableChartHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableChartHeader.m; sourceTree = "<group>"; };
-		C354D3DD1F0F6FF3000AA733 /* XLTimeLineM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTimeLineM.h; sourceTree = "<group>"; };
-		C354D3DE1F0F6FF3000AA733 /* XLTimeLineM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTimeLineM.m; sourceTree = "<group>"; };
-		C354D3E01F0F6FF3000AA733 /* XLTimeLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTimeLineChart.h; sourceTree = "<group>"; };
-		C354D3E11F0F6FF3000AA733 /* XLTimeLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTimeLineChart.m; sourceTree = "<group>"; };
-		C354D3E21F0F6FF3000AA733 /* XLTimeLineChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTimeLineChartCell.h; sourceTree = "<group>"; };
-		C354D3E31F0F6FF3000AA733 /* XLTimeLineChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTimeLineChartCell.m; sourceTree = "<group>"; };
-		C354D3E41F0F6FF3000AA733 /* XLTimeLineDetailChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTimeLineDetailChart.h; sourceTree = "<group>"; };
-		C354D3E51F0F6FF3000AA733 /* XLTimeLineDetailChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTimeLineDetailChart.m; sourceTree = "<group>"; };
-		C354D3E71F0F6FF3000AA733 /* XLTimeLineChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTimeLineChartVC.h; sourceTree = "<group>"; };
-		C354D3E81F0F6FF3000AA733 /* XLTimeLineChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTimeLineChartVC.m; sourceTree = "<group>"; };
-		C354D3EB1F0F6FF3000AA733 /* XLTitleRectangleM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTitleRectangleM.h; sourceTree = "<group>"; };
-		C354D3EC1F0F6FF3000AA733 /* XLTitleRectangleM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTitleRectangleM.m; sourceTree = "<group>"; };
-		C354D3EE1F0F6FF3000AA733 /* XLTitleRectangleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTitleRectangleChart.h; sourceTree = "<group>"; };
-		C354D3EF1F0F6FF3000AA733 /* XLTitleRectangleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTitleRectangleChart.m; sourceTree = "<group>"; };
+		C38056AD1F107C6A009BC4BC /* XLAxisM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAxisM.h; sourceTree = "<group>"; };
+		C38056AE1F107C6A009BC4BC /* XLAxisM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAxisM.m; sourceTree = "<group>"; };
+		C38056B01F107C6A009BC4BC /* XLAxisChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAxisChart.h; sourceTree = "<group>"; };
+		C38056B11F107C6A009BC4BC /* XLAxisChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAxisChart.m; sourceTree = "<group>"; };
+		C38056B41F107C6A009BC4BC /* XLBarLineChartM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarLineChartM.h; sourceTree = "<group>"; };
+		C38056B51F107C6A009BC4BC /* XLBarLineChartM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarLineChartM.m; sourceTree = "<group>"; };
+		C38056B71F107C6A009BC4BC /* XLBarLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarLineChart.h; sourceTree = "<group>"; };
+		C38056B81F107C6A009BC4BC /* XLBarLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarLineChart.m; sourceTree = "<group>"; };
+		C38056B91F107C6A009BC4BC /* XLBarLineChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarLineChartCell.h; sourceTree = "<group>"; };
+		C38056BA1F107C6A009BC4BC /* XLBarLineChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarLineChartCell.m; sourceTree = "<group>"; };
+		C38056BB1F107C6A009BC4BC /* XLBarLineChartDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarLineChartDetail.h; sourceTree = "<group>"; };
+		C38056BC1F107C6A009BC4BC /* XLBarLineChartDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarLineChartDetail.m; sourceTree = "<group>"; };
+		C38056BF1F107C6A009BC4BC /* XLBaseM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBaseM.h; sourceTree = "<group>"; };
+		C38056C01F107C6A009BC4BC /* XLBaseM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBaseM.m; sourceTree = "<group>"; };
+		C38056C21F107C6A009BC4BC /* XLBaseChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBaseChart.h; sourceTree = "<group>"; };
+		C38056C31F107C6A009BC4BC /* XLBaseChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBaseChart.m; sourceTree = "<group>"; };
+		C38056C81F107C6A009BC4BC /* XLPieChartM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPieChartM.h; sourceTree = "<group>"; };
+		C38056C91F107C6A009BC4BC /* XLPieChartM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPieChartM.m; sourceTree = "<group>"; };
+		C38056CB1F107C6A009BC4BC /* XLPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPieChart.h; sourceTree = "<group>"; };
+		C38056CC1F107C6A009BC4BC /* XLPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPieChart.m; sourceTree = "<group>"; };
+		C38056CD1F107C6A009BC4BC /* XLPieContentChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPieContentChart.h; sourceTree = "<group>"; };
+		C38056CE1F107C6A009BC4BC /* XLPieContentChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPieContentChart.m; sourceTree = "<group>"; };
+		C38056D11F107C6A009BC4BC /* XLPopupChartM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPopupChartM.h; sourceTree = "<group>"; };
+		C38056D21F107C6A009BC4BC /* XLPopupChartM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPopupChartM.m; sourceTree = "<group>"; };
+		C38056D41F107C6A009BC4BC /* XLPopupChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPopupChart.h; sourceTree = "<group>"; };
+		C38056D51F107C6A009BC4BC /* XLPopupChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPopupChart.m; sourceTree = "<group>"; };
+		C38056D81F107C6A009BC4BC /* XLQuadrantButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantButton.h; sourceTree = "<group>"; };
+		C38056D91F107C6A009BC4BC /* XLQuadrantButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantButton.m; sourceTree = "<group>"; };
+		C38056DA1F107C6A009BC4BC /* XLQuadrantChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantChart.h; sourceTree = "<group>"; };
+		C38056DB1F107C6A009BC4BC /* XLQuadrantChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantChart.m; sourceTree = "<group>"; };
+		C38056DC1F107C6A009BC4BC /* XLQuadrantM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantM.h; sourceTree = "<group>"; };
+		C38056DD1F107C6A009BC4BC /* XLQuadrantM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantM.m; sourceTree = "<group>"; };
+		C38056DE1F107C6A009BC4BC /* XLQuadrantRectangleM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantRectangleM.h; sourceTree = "<group>"; };
+		C38056DF1F107C6A009BC4BC /* XLQuadrantRectangleM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantRectangleM.m; sourceTree = "<group>"; };
+		C38056E11F107C6A009BC4BC /* XLQuadrantArrowLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantArrowLabel.h; sourceTree = "<group>"; };
+		C38056E21F107C6A009BC4BC /* XLQuadrantArrowLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantArrowLabel.m; sourceTree = "<group>"; };
+		C38056E31F107C6A009BC4BC /* XLQuadrantChartDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantChartDetail.h; sourceTree = "<group>"; };
+		C38056E41F107C6A009BC4BC /* XLQuadrantChartDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantChartDetail.m; sourceTree = "<group>"; };
+		C38056E51F107C6A009BC4BC /* XLQuadrantTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLQuadrantTableViewCell.h; sourceTree = "<group>"; };
+		C38056E61F107C6A009BC4BC /* XLQuadrantTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLQuadrantTableViewCell.m; sourceTree = "<group>"; };
+		C38056E71F107C6A009BC4BC /* XLQuadrantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLQuadrantTableViewCell.xib; sourceTree = "<group>"; };
+		C38056EA1F107C6A009BC4BC /* XLRadarM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRadarM.h; sourceTree = "<group>"; };
+		C38056EB1F107C6A009BC4BC /* XLRadarM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRadarM.m; sourceTree = "<group>"; };
+		C38056ED1F107C6A009BC4BC /* XLRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRadarChart.h; sourceTree = "<group>"; };
+		C38056EE1F107C6A009BC4BC /* XLRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRadarChart.m; sourceTree = "<group>"; };
+		C38056F11F107C6A009BC4BC /* XLSegmentCellM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentCellM.h; sourceTree = "<group>"; };
+		C38056F21F107C6A009BC4BC /* XLSegmentCellM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSegmentCellM.m; sourceTree = "<group>"; };
+		C38056F41F107C6A009BC4BC /* XLSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentCell.h; sourceTree = "<group>"; };
+		C38056F51F107C6A009BC4BC /* XLSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSegmentCell.m; sourceTree = "<group>"; };
+		C38056F61F107C6A009BC4BC /* XLSegmentChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentChart.h; sourceTree = "<group>"; };
+		C38056F71F107C6A009BC4BC /* XLSegmentChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSegmentChart.m; sourceTree = "<group>"; };
+		C38056FA1F107C6A009BC4BC /* XLTableCellM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableCellM.h; sourceTree = "<group>"; };
+		C38056FB1F107C6A009BC4BC /* XLTableCellM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableCellM.m; sourceTree = "<group>"; };
+		C38056FD1F107C6A009BC4BC /* XLTableChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableChart.h; sourceTree = "<group>"; };
+		C38056FE1F107C6A009BC4BC /* XLTableChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableChart.m; sourceTree = "<group>"; };
+		C38056FF1F107C6A009BC4BC /* XLTableChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableChartCell.h; sourceTree = "<group>"; };
+		C38057001F107C6A009BC4BC /* XLTableChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableChartCell.m; sourceTree = "<group>"; };
+		C38057011F107C6A009BC4BC /* XLTableChartDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableChartDetail.h; sourceTree = "<group>"; };
+		C38057021F107C6A009BC4BC /* XLTableChartDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableChartDetail.m; sourceTree = "<group>"; };
+		C38057031F107C6A009BC4BC /* XLTableChartFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableChartFooter.h; sourceTree = "<group>"; };
+		C38057041F107C6A009BC4BC /* XLTableChartFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableChartFooter.m; sourceTree = "<group>"; };
+		C38057051F107C6A009BC4BC /* XLTableChartHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableChartHeader.h; sourceTree = "<group>"; };
+		C38057061F107C6A009BC4BC /* XLTableChartHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableChartHeader.m; sourceTree = "<group>"; };
+		C38057091F107C6A009BC4BC /* XLTimeLineM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTimeLineM.h; sourceTree = "<group>"; };
+		C380570A1F107C6A009BC4BC /* XLTimeLineM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTimeLineM.m; sourceTree = "<group>"; };
+		C380570C1F107C6A009BC4BC /* XLTimeLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTimeLineChart.h; sourceTree = "<group>"; };
+		C380570D1F107C6A009BC4BC /* XLTimeLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTimeLineChart.m; sourceTree = "<group>"; };
+		C380570E1F107C6A009BC4BC /* XLTimeLineChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTimeLineChartCell.h; sourceTree = "<group>"; };
+		C380570F1F107C6A009BC4BC /* XLTimeLineChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTimeLineChartCell.m; sourceTree = "<group>"; };
+		C38057101F107C6A009BC4BC /* XLTimeLineDetailChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTimeLineDetailChart.h; sourceTree = "<group>"; };
+		C38057111F107C6A009BC4BC /* XLTimeLineDetailChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTimeLineDetailChart.m; sourceTree = "<group>"; };
+		C38057131F107C6A009BC4BC /* XLTimeLineChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTimeLineChartVC.h; sourceTree = "<group>"; };
+		C38057141F107C6A009BC4BC /* XLTimeLineChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTimeLineChartVC.m; sourceTree = "<group>"; };
+		C38057171F107C6A009BC4BC /* XLTitleRectangleM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTitleRectangleM.h; sourceTree = "<group>"; };
+		C38057181F107C6A009BC4BC /* XLTitleRectangleM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTitleRectangleM.m; sourceTree = "<group>"; };
+		C380571A1F107C6A009BC4BC /* XLTitleRectangleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTitleRectangleChart.h; sourceTree = "<group>"; };
+		C380571B1F107C6A009BC4BC /* XLTitleRectangleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTitleRectangleChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,7 +249,7 @@
 		C31BFAB21ED0152B0077A793 /* XLChartClient */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3671F0F6FF3000AA733 /* XLGraphicEngine */,
+				C38056AA1F107C6A009BC4BC /* XLGraphicEngine */,
 				C31BFAB61ED0152B0077A793 /* AppDelegate.h */,
 				C31BFAB71ED0152C0077A793 /* AppDelegate.m */,
 				C31BFBA71ED028C50077A793 /* MainFoldingCell.xib */,
@@ -393,510 +293,376 @@
 			path = XLChartClientUITests;
 			sourceTree = "<group>";
 		};
-		C354D3671F0F6FF3000AA733 /* XLGraphicEngine */ = {
+		C38056AA1F107C6A009BC4BC /* XLGraphicEngine */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3681F0F6FF3000AA733 /* define.h */,
-				C354D3851F0F6FF3000AA733 /* XLChart.h */,
-				C354D3691F0F6FF3000AA733 /* XLAxisChart */,
-				C354D3711F0F6FF3000AA733 /* XLBarChart */,
-				C354D37D1F0F6FF3000AA733 /* XLBaseChart */,
-				C354D3861F0F6FF3000AA733 /* XLExtension */,
-				C354D38B1F0F6FF3000AA733 /* XLKernel */,
-				C354D3901F0F6FF3000AA733 /* XLLineChart */,
-				C354D3941F0F6FF3000AA733 /* XLPieChart */,
-				C354D39E1F0F6FF3000AA733 /* XLPopupChart */,
-				C354D3A61F0F6FF3000AA733 /* XLQudrantChart */,
-				C354D3B91F0F6FF3000AA733 /* XLRadarChart */,
-				C354D3C11F0F6FF3000AA733 /* XLSegmentChart */,
-				C354D3CB1F0F6FF3000AA733 /* XLTableChart */,
-				C354D3DB1F0F6FF3000AA733 /* XLTimeLineChart */,
-				C354D3E91F0F6FF3000AA733 /* XLTitleRectangleChart */,
+				C38056AB1F107C6A009BC4BC /* XLAxisChart */,
+				C38056B21F107C6A009BC4BC /* XLBarChart */,
+				C38056BD1F107C6A009BC4BC /* XLBaseChart */,
+				C38056C41F107C6A009BC4BC /* XLExtension */,
+				C38056C51F107C6A009BC4BC /* XLKernel */,
+				C38056C61F107C6A009BC4BC /* XLPieChart */,
+				C38056CF1F107C6A009BC4BC /* XLPopupChart */,
+				C38056D61F107C6A009BC4BC /* XLQudrantChart */,
+				C38056E81F107C6A009BC4BC /* XLRadarChart */,
+				C38056EF1F107C6A009BC4BC /* XLSegmentChart */,
+				C38056F81F107C6A009BC4BC /* XLTableChart */,
+				C38057071F107C6A009BC4BC /* XLTimeLineChart */,
+				C38057151F107C6A009BC4BC /* XLTitleRectangleChart */,
 			);
 			path = XLGraphicEngine;
 			sourceTree = "<group>";
 		};
-		C354D3691F0F6FF3000AA733 /* XLAxisChart */ = {
+		C38056AB1F107C6A009BC4BC /* XLAxisChart */ = {
 			isa = PBXGroup;
 			children = (
-				C354D36A1F0F6FF3000AA733 /* Model */,
-				C354D36D1F0F6FF3000AA733 /* View */,
-				C354D3701F0F6FF3000AA733 /* ViewController */,
+				C38056AC1F107C6A009BC4BC /* Model */,
+				C38056AF1F107C6A009BC4BC /* View */,
 			);
-			name = XLAxisChart;
-			path = "XLAxisChart(轴线图)";
+			path = XLAxisChart;
 			sourceTree = "<group>";
 		};
-		C354D36A1F0F6FF3000AA733 /* Model */ = {
+		C38056AC1F107C6A009BC4BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C354D36B1F0F6FF3000AA733 /* XLAxisM.h */,
-				C354D36C1F0F6FF3000AA733 /* XLAxisM.m */,
+				C38056AD1F107C6A009BC4BC /* XLAxisM.h */,
+				C38056AE1F107C6A009BC4BC /* XLAxisM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C354D36D1F0F6FF3000AA733 /* View */ = {
+		C38056AF1F107C6A009BC4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C354D36E1F0F6FF3000AA733 /* XLAxisChart.h */,
-				C354D36F1F0F6FF3000AA733 /* XLAxisChart.m */,
+				C38056B01F107C6A009BC4BC /* XLAxisChart.h */,
+				C38056B11F107C6A009BC4BC /* XLAxisChart.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C354D3701F0F6FF3000AA733 /* ViewController */ = {
+		C38056B21F107C6A009BC4BC /* XLBarChart */ = {
 			isa = PBXGroup;
 			children = (
+				C38056B31F107C6A009BC4BC /* Model */,
+				C38056B61F107C6A009BC4BC /* View */,
 			);
-			path = ViewController;
+			path = XLBarChart;
 			sourceTree = "<group>";
 		};
-		C354D3711F0F6FF3000AA733 /* XLBarChart */ = {
+		C38056B31F107C6A009BC4BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3721F0F6FF3000AA733 /* Model */,
-				C354D3751F0F6FF3000AA733 /* View */,
-				C354D37C1F0F6FF3000AA733 /* ViewController */,
-			);
-			name = XLBarChart;
-			path = "XLBarChart(柱状图图)";
-			sourceTree = "<group>";
-		};
-		C354D3721F0F6FF3000AA733 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3731F0F6FF3000AA733 /* XLBarLineChartM.h */,
-				C354D3741F0F6FF3000AA733 /* XLBarLineChartM.m */,
+				C38056B41F107C6A009BC4BC /* XLBarLineChartM.h */,
+				C38056B51F107C6A009BC4BC /* XLBarLineChartM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C354D3751F0F6FF3000AA733 /* View */ = {
+		C38056B61F107C6A009BC4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3761F0F6FF3000AA733 /* XLBarLineChart.h */,
-				C354D3771F0F6FF3000AA733 /* XLBarLineChart.m */,
-				C354D3781F0F6FF3000AA733 /* XLBarLineChartCell.h */,
-				C354D3791F0F6FF3000AA733 /* XLBarLineChartCell.m */,
-				C354D37A1F0F6FF3000AA733 /* XLBarLineChartDetail.h */,
-				C354D37B1F0F6FF3000AA733 /* XLBarLineChartDetail.m */,
+				C38056B71F107C6A009BC4BC /* XLBarLineChart.h */,
+				C38056B81F107C6A009BC4BC /* XLBarLineChart.m */,
+				C38056B91F107C6A009BC4BC /* XLBarLineChartCell.h */,
+				C38056BA1F107C6A009BC4BC /* XLBarLineChartCell.m */,
+				C38056BB1F107C6A009BC4BC /* XLBarLineChartDetail.h */,
+				C38056BC1F107C6A009BC4BC /* XLBarLineChartDetail.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C354D37C1F0F6FF3000AA733 /* ViewController */ = {
+		C38056BD1F107C6A009BC4BC /* XLBaseChart */ = {
 			isa = PBXGroup;
 			children = (
+				C38056BE1F107C6A009BC4BC /* Model */,
+				C38056C11F107C6A009BC4BC /* View */,
 			);
-			path = ViewController;
+			path = XLBaseChart;
 			sourceTree = "<group>";
 		};
-		C354D37D1F0F6FF3000AA733 /* XLBaseChart */ = {
+		C38056BE1F107C6A009BC4BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C354D37E1F0F6FF3000AA733 /* Model */,
-				C354D3811F0F6FF3000AA733 /* View */,
-				C354D3841F0F6FF3000AA733 /* ViewController */,
-			);
-			name = XLBaseChart;
-			path = "XLBaseChart(基类图)";
-			sourceTree = "<group>";
-		};
-		C354D37E1F0F6FF3000AA733 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C354D37F1F0F6FF3000AA733 /* XLBaseM.h */,
-				C354D3801F0F6FF3000AA733 /* XLBaseM.m */,
+				C38056BF1F107C6A009BC4BC /* XLBaseM.h */,
+				C38056C01F107C6A009BC4BC /* XLBaseM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C354D3811F0F6FF3000AA733 /* View */ = {
+		C38056C11F107C6A009BC4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3821F0F6FF3000AA733 /* XLBaseChart.h */,
-				C354D3831F0F6FF3000AA733 /* XLBaseChart.m */,
+				C38056C21F107C6A009BC4BC /* XLBaseChart.h */,
+				C38056C31F107C6A009BC4BC /* XLBaseChart.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C354D3841F0F6FF3000AA733 /* ViewController */ = {
+		C38056C41F107C6A009BC4BC /* XLExtension */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		C354D3861F0F6FF3000AA733 /* XLExtension */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3871F0F6FF3000AA733 /* UIColor+XLUIColor.h */,
-				C354D3881F0F6FF3000AA733 /* UIColor+XLUIColor.m */,
-				C354D3891F0F6FF3000AA733 /* UIView+ICoo.h */,
-				C354D38A1F0F6FF3000AA733 /* UIView+ICoo.m */,
 			);
 			path = XLExtension;
 			sourceTree = "<group>";
 		};
-		C354D38B1F0F6FF3000AA733 /* XLKernel */ = {
+		C38056C51F107C6A009BC4BC /* XLKernel */ = {
 			isa = PBXGroup;
 			children = (
-				C354D38C1F0F6FF3000AA733 /* CRoutines.h */,
-				C354D38D1F0F6FF3000AA733 /* CRoutines.m */,
-				C354D38E1F0F6FF3000AA733 /* XLGraphicEngine.h */,
-				C354D38F1F0F6FF3000AA733 /* XLGraphicEngine.m */,
 			);
 			path = XLKernel;
 			sourceTree = "<group>";
 		};
-		C354D3901F0F6FF3000AA733 /* XLLineChart */ = {
+		C38056C61F107C6A009BC4BC /* XLPieChart */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3911F0F6FF3000AA733 /* Model */,
-				C354D3921F0F6FF3000AA733 /* View */,
-				C354D3931F0F6FF3000AA733 /* ViewController */,
+				C38056C71F107C6A009BC4BC /* Model */,
+				C38056CA1F107C6A009BC4BC /* View */,
 			);
-			name = XLLineChart;
-			path = "XLLineChart(折线图)";
+			path = XLPieChart;
 			sourceTree = "<group>";
 		};
-		C354D3911F0F6FF3000AA733 /* Model */ = {
+		C38056C71F107C6A009BC4BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C38056C81F107C6A009BC4BC /* XLPieChartM.h */,
+				C38056C91F107C6A009BC4BC /* XLPieChartM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C354D3921F0F6FF3000AA733 /* View */ = {
+		C38056CA1F107C6A009BC4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C38056CB1F107C6A009BC4BC /* XLPieChart.h */,
+				C38056CC1F107C6A009BC4BC /* XLPieChart.m */,
+				C38056CD1F107C6A009BC4BC /* XLPieContentChart.h */,
+				C38056CE1F107C6A009BC4BC /* XLPieContentChart.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C354D3931F0F6FF3000AA733 /* ViewController */ = {
+		C38056CF1F107C6A009BC4BC /* XLPopupChart */ = {
 			isa = PBXGroup;
 			children = (
+				C38056D01F107C6A009BC4BC /* Model */,
+				C38056D31F107C6A009BC4BC /* View */,
 			);
-			path = ViewController;
+			path = XLPopupChart;
 			sourceTree = "<group>";
 		};
-		C354D3941F0F6FF3000AA733 /* XLPieChart */ = {
+		C38056D01F107C6A009BC4BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3951F0F6FF3000AA733 /* Model */,
-				C354D3981F0F6FF3000AA733 /* View */,
-				C354D39D1F0F6FF3000AA733 /* ViewController */,
-			);
-			name = XLPieChart;
-			path = "XLPieChart(饼图)";
-			sourceTree = "<group>";
-		};
-		C354D3951F0F6FF3000AA733 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3961F0F6FF3000AA733 /* XLPieChartM.h */,
-				C354D3971F0F6FF3000AA733 /* XLPieChartM.m */,
+				C38056D11F107C6A009BC4BC /* XLPopupChartM.h */,
+				C38056D21F107C6A009BC4BC /* XLPopupChartM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C354D3981F0F6FF3000AA733 /* View */ = {
+		C38056D31F107C6A009BC4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3991F0F6FF3000AA733 /* XLPieChart.h */,
-				C354D39A1F0F6FF3000AA733 /* XLPieChart.m */,
-				C354D39B1F0F6FF3000AA733 /* XLPieContentChart.h */,
-				C354D39C1F0F6FF3000AA733 /* XLPieContentChart.m */,
+				C38056D41F107C6A009BC4BC /* XLPopupChart.h */,
+				C38056D51F107C6A009BC4BC /* XLPopupChart.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C354D39D1F0F6FF3000AA733 /* ViewController */ = {
+		C38056D61F107C6A009BC4BC /* XLQudrantChart */ = {
 			isa = PBXGroup;
 			children = (
+				C38056D71F107C6A009BC4BC /* Model */,
+				C38056E01F107C6A009BC4BC /* View */,
 			);
-			path = ViewController;
+			path = XLQudrantChart;
 			sourceTree = "<group>";
 		};
-		C354D39E1F0F6FF3000AA733 /* XLPopupChart */ = {
+		C38056D71F107C6A009BC4BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C354D39F1F0F6FF3000AA733 /* Model */,
-				C354D3A21F0F6FF3000AA733 /* View */,
-				C354D3A51F0F6FF3000AA733 /* ViewController */,
-			);
-			name = XLPopupChart;
-			path = "XLPopupChart(弹出图)";
-			sourceTree = "<group>";
-		};
-		C354D39F1F0F6FF3000AA733 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3A01F0F6FF3000AA733 /* XLPopupChartM.h */,
-				C354D3A11F0F6FF3000AA733 /* XLPopupChartM.m */,
+				C38056D81F107C6A009BC4BC /* XLQuadrantButton.h */,
+				C38056D91F107C6A009BC4BC /* XLQuadrantButton.m */,
+				C38056DA1F107C6A009BC4BC /* XLQuadrantChart.h */,
+				C38056DB1F107C6A009BC4BC /* XLQuadrantChart.m */,
+				C38056DC1F107C6A009BC4BC /* XLQuadrantM.h */,
+				C38056DD1F107C6A009BC4BC /* XLQuadrantM.m */,
+				C38056DE1F107C6A009BC4BC /* XLQuadrantRectangleM.h */,
+				C38056DF1F107C6A009BC4BC /* XLQuadrantRectangleM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C354D3A21F0F6FF3000AA733 /* View */ = {
+		C38056E01F107C6A009BC4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3A31F0F6FF3000AA733 /* XLPopupChart.h */,
-				C354D3A41F0F6FF3000AA733 /* XLPopupChart.m */,
+				C38056E11F107C6A009BC4BC /* XLQuadrantArrowLabel.h */,
+				C38056E21F107C6A009BC4BC /* XLQuadrantArrowLabel.m */,
+				C38056E31F107C6A009BC4BC /* XLQuadrantChartDetail.h */,
+				C38056E41F107C6A009BC4BC /* XLQuadrantChartDetail.m */,
+				C38056E51F107C6A009BC4BC /* XLQuadrantTableViewCell.h */,
+				C38056E61F107C6A009BC4BC /* XLQuadrantTableViewCell.m */,
+				C38056E71F107C6A009BC4BC /* XLQuadrantTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C354D3A51F0F6FF3000AA733 /* ViewController */ = {
+		C38056E81F107C6A009BC4BC /* XLRadarChart */ = {
 			isa = PBXGroup;
 			children = (
+				C38056E91F107C6A009BC4BC /* Model */,
+				C38056EC1F107C6A009BC4BC /* View */,
 			);
-			path = ViewController;
+			path = XLRadarChart;
 			sourceTree = "<group>";
 		};
-		C354D3A61F0F6FF3000AA733 /* XLQudrantChart */ = {
+		C38056E91F107C6A009BC4BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3A71F0F6FF3000AA733 /* Model */,
-				C354D3B01F0F6FF3000AA733 /* View */,
-				C354D3B81F0F6FF3000AA733 /* ViewController */,
-			);
-			name = XLQudrantChart;
-			path = "XLQudrantChart(象限图)";
-			sourceTree = "<group>";
-		};
-		C354D3A71F0F6FF3000AA733 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3A81F0F6FF3000AA733 /* XLQuadrantButton.h */,
-				C354D3A91F0F6FF3000AA733 /* XLQuadrantButton.m */,
-				C354D3AA1F0F6FF3000AA733 /* XLQuadrantChart.h */,
-				C354D3AB1F0F6FF3000AA733 /* XLQuadrantChart.m */,
-				C354D3AC1F0F6FF3000AA733 /* XLQuadrantM.h */,
-				C354D3AD1F0F6FF3000AA733 /* XLQuadrantM.m */,
-				C354D3AE1F0F6FF3000AA733 /* XLQuadrantRectangleM.h */,
-				C354D3AF1F0F6FF3000AA733 /* XLQuadrantRectangleM.m */,
+				C38056EA1F107C6A009BC4BC /* XLRadarM.h */,
+				C38056EB1F107C6A009BC4BC /* XLRadarM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C354D3B01F0F6FF3000AA733 /* View */ = {
+		C38056EC1F107C6A009BC4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3B11F0F6FF3000AA733 /* XLQuadrantArrowLabel.h */,
-				C354D3B21F0F6FF3000AA733 /* XLQuadrantArrowLabel.m */,
-				C354D3B31F0F6FF3000AA733 /* XLQuadrantChartDetail.h */,
-				C354D3B41F0F6FF3000AA733 /* XLQuadrantChartDetail.m */,
-				C354D3B51F0F6FF3000AA733 /* XLQuadrantTableViewCell.h */,
-				C354D3B61F0F6FF3000AA733 /* XLQuadrantTableViewCell.m */,
-				C354D3B71F0F6FF3000AA733 /* XLQuadrantTableViewCell.xib */,
+				C38056ED1F107C6A009BC4BC /* XLRadarChart.h */,
+				C38056EE1F107C6A009BC4BC /* XLRadarChart.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C354D3B81F0F6FF3000AA733 /* ViewController */ = {
+		C38056EF1F107C6A009BC4BC /* XLSegmentChart */ = {
 			isa = PBXGroup;
 			children = (
+				C38056F01F107C6A009BC4BC /* Model */,
+				C38056F31F107C6A009BC4BC /* View */,
 			);
-			path = ViewController;
+			path = XLSegmentChart;
 			sourceTree = "<group>";
 		};
-		C354D3B91F0F6FF3000AA733 /* XLRadarChart */ = {
+		C38056F01F107C6A009BC4BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3BA1F0F6FF3000AA733 /* Model */,
-				C354D3BD1F0F6FF3000AA733 /* View */,
-				C354D3C01F0F6FF3000AA733 /* ViewController */,
-			);
-			name = XLRadarChart;
-			path = "XLRadarChart(雷达图)";
-			sourceTree = "<group>";
-		};
-		C354D3BA1F0F6FF3000AA733 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3BB1F0F6FF3000AA733 /* XLRadarM.h */,
-				C354D3BC1F0F6FF3000AA733 /* XLRadarM.m */,
+				C38056F11F107C6A009BC4BC /* XLSegmentCellM.h */,
+				C38056F21F107C6A009BC4BC /* XLSegmentCellM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C354D3BD1F0F6FF3000AA733 /* View */ = {
+		C38056F31F107C6A009BC4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3BE1F0F6FF3000AA733 /* XLRadarChart.h */,
-				C354D3BF1F0F6FF3000AA733 /* XLRadarChart.m */,
+				C38056F41F107C6A009BC4BC /* XLSegmentCell.h */,
+				C38056F51F107C6A009BC4BC /* XLSegmentCell.m */,
+				C38056F61F107C6A009BC4BC /* XLSegmentChart.h */,
+				C38056F71F107C6A009BC4BC /* XLSegmentChart.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C354D3C01F0F6FF3000AA733 /* ViewController */ = {
+		C38056F81F107C6A009BC4BC /* XLTableChart */ = {
 			isa = PBXGroup;
 			children = (
+				C38056F91F107C6A009BC4BC /* Model */,
+				C38056FC1F107C6A009BC4BC /* View */,
 			);
-			path = ViewController;
+			path = XLTableChart;
 			sourceTree = "<group>";
 		};
-		C354D3C11F0F6FF3000AA733 /* XLSegmentChart */ = {
+		C38056F91F107C6A009BC4BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3C21F0F6FF3000AA733 /* Model */,
-				C354D3C51F0F6FF3000AA733 /* View */,
-				C354D3CA1F0F6FF3000AA733 /* ViewController */,
-			);
-			name = XLSegmentChart;
-			path = "XLSegmentChart(分类图)";
-			sourceTree = "<group>";
-		};
-		C354D3C21F0F6FF3000AA733 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3C31F0F6FF3000AA733 /* XLSegmentCellM.h */,
-				C354D3C41F0F6FF3000AA733 /* XLSegmentCellM.m */,
+				C38056FA1F107C6A009BC4BC /* XLTableCellM.h */,
+				C38056FB1F107C6A009BC4BC /* XLTableCellM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C354D3C51F0F6FF3000AA733 /* View */ = {
+		C38056FC1F107C6A009BC4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3C61F0F6FF3000AA733 /* XLSegmentCell.h */,
-				C354D3C71F0F6FF3000AA733 /* XLSegmentCell.m */,
-				C354D3C81F0F6FF3000AA733 /* XLSegmentChart.h */,
-				C354D3C91F0F6FF3000AA733 /* XLSegmentChart.m */,
+				C38056FD1F107C6A009BC4BC /* XLTableChart.h */,
+				C38056FE1F107C6A009BC4BC /* XLTableChart.m */,
+				C38056FF1F107C6A009BC4BC /* XLTableChartCell.h */,
+				C38057001F107C6A009BC4BC /* XLTableChartCell.m */,
+				C38057011F107C6A009BC4BC /* XLTableChartDetail.h */,
+				C38057021F107C6A009BC4BC /* XLTableChartDetail.m */,
+				C38057031F107C6A009BC4BC /* XLTableChartFooter.h */,
+				C38057041F107C6A009BC4BC /* XLTableChartFooter.m */,
+				C38057051F107C6A009BC4BC /* XLTableChartHeader.h */,
+				C38057061F107C6A009BC4BC /* XLTableChartHeader.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C354D3CA1F0F6FF3000AA733 /* ViewController */ = {
+		C38057071F107C6A009BC4BC /* XLTimeLineChart */ = {
 			isa = PBXGroup;
 			children = (
+				C38057081F107C6A009BC4BC /* Model */,
+				C380570B1F107C6A009BC4BC /* View */,
+				C38057121F107C6A009BC4BC /* ViewController */,
 			);
-			path = ViewController;
+			path = XLTimeLineChart;
 			sourceTree = "<group>";
 		};
-		C354D3CB1F0F6FF3000AA733 /* XLTableChart */ = {
+		C38057081F107C6A009BC4BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3CC1F0F6FF3000AA733 /* Model */,
-				C354D3CF1F0F6FF3000AA733 /* View */,
-				C354D3DA1F0F6FF3000AA733 /* ViewController */,
-			);
-			name = XLTableChart;
-			path = "XLTableChart(表格图)";
-			sourceTree = "<group>";
-		};
-		C354D3CC1F0F6FF3000AA733 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3CD1F0F6FF3000AA733 /* XLTableCellM.h */,
-				C354D3CE1F0F6FF3000AA733 /* XLTableCellM.m */,
+				C38057091F107C6A009BC4BC /* XLTimeLineM.h */,
+				C380570A1F107C6A009BC4BC /* XLTimeLineM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C354D3CF1F0F6FF3000AA733 /* View */ = {
+		C380570B1F107C6A009BC4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3D01F0F6FF3000AA733 /* XLTableChart.h */,
-				C354D3D11F0F6FF3000AA733 /* XLTableChart.m */,
-				C354D3D21F0F6FF3000AA733 /* XLTableChartCell.h */,
-				C354D3D31F0F6FF3000AA733 /* XLTableChartCell.m */,
-				C354D3D41F0F6FF3000AA733 /* XLTableChartDetail.h */,
-				C354D3D51F0F6FF3000AA733 /* XLTableChartDetail.m */,
-				C354D3D61F0F6FF3000AA733 /* XLTableChartFooter.h */,
-				C354D3D71F0F6FF3000AA733 /* XLTableChartFooter.m */,
-				C354D3D81F0F6FF3000AA733 /* XLTableChartHeader.h */,
-				C354D3D91F0F6FF3000AA733 /* XLTableChartHeader.m */,
+				C380570C1F107C6A009BC4BC /* XLTimeLineChart.h */,
+				C380570D1F107C6A009BC4BC /* XLTimeLineChart.m */,
+				C380570E1F107C6A009BC4BC /* XLTimeLineChartCell.h */,
+				C380570F1F107C6A009BC4BC /* XLTimeLineChartCell.m */,
+				C38057101F107C6A009BC4BC /* XLTimeLineDetailChart.h */,
+				C38057111F107C6A009BC4BC /* XLTimeLineDetailChart.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C354D3DA1F0F6FF3000AA733 /* ViewController */ = {
+		C38057121F107C6A009BC4BC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C38057131F107C6A009BC4BC /* XLTimeLineChartVC.h */,
+				C38057141F107C6A009BC4BC /* XLTimeLineChartVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		C354D3DB1F0F6FF3000AA733 /* XLTimeLineChart */ = {
+		C38057151F107C6A009BC4BC /* XLTitleRectangleChart */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3DC1F0F6FF3000AA733 /* Model */,
-				C354D3DF1F0F6FF3000AA733 /* View */,
-				C354D3E61F0F6FF3000AA733 /* ViewController */,
+				C38057161F107C6A009BC4BC /* Model */,
+				C38057191F107C6A009BC4BC /* View */,
 			);
-			name = XLTimeLineChart;
-			path = "XLTimeLineChart(时间轴图)";
+			path = XLTitleRectangleChart;
 			sourceTree = "<group>";
 		};
-		C354D3DC1F0F6FF3000AA733 /* Model */ = {
+		C38057161F107C6A009BC4BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3DD1F0F6FF3000AA733 /* XLTimeLineM.h */,
-				C354D3DE1F0F6FF3000AA733 /* XLTimeLineM.m */,
+				C38057171F107C6A009BC4BC /* XLTitleRectangleM.h */,
+				C38057181F107C6A009BC4BC /* XLTitleRectangleM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C354D3DF1F0F6FF3000AA733 /* View */ = {
+		C38057191F107C6A009BC4BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C354D3E01F0F6FF3000AA733 /* XLTimeLineChart.h */,
-				C354D3E11F0F6FF3000AA733 /* XLTimeLineChart.m */,
-				C354D3E21F0F6FF3000AA733 /* XLTimeLineChartCell.h */,
-				C354D3E31F0F6FF3000AA733 /* XLTimeLineChartCell.m */,
-				C354D3E41F0F6FF3000AA733 /* XLTimeLineDetailChart.h */,
-				C354D3E51F0F6FF3000AA733 /* XLTimeLineDetailChart.m */,
+				C380571A1F107C6A009BC4BC /* XLTitleRectangleChart.h */,
+				C380571B1F107C6A009BC4BC /* XLTitleRectangleChart.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		C354D3E61F0F6FF3000AA733 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3E71F0F6FF3000AA733 /* XLTimeLineChartVC.h */,
-				C354D3E81F0F6FF3000AA733 /* XLTimeLineChartVC.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		C354D3E91F0F6FF3000AA733 /* XLTitleRectangleChart */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3EA1F0F6FF3000AA733 /* Model */,
-				C354D3ED1F0F6FF3000AA733 /* View */,
-				C354D3F01F0F6FF3000AA733 /* ViewController */,
-			);
-			name = XLTitleRectangleChart;
-			path = "XLTitleRectangleChart(标题说明图)";
-			sourceTree = "<group>";
-		};
-		C354D3EA1F0F6FF3000AA733 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3EB1F0F6FF3000AA733 /* XLTitleRectangleM.h */,
-				C354D3EC1F0F6FF3000AA733 /* XLTitleRectangleM.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C354D3ED1F0F6FF3000AA733 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C354D3EE1F0F6FF3000AA733 /* XLTitleRectangleChart.h */,
-				C354D3EF1F0F6FF3000AA733 /* XLTitleRectangleChart.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C354D3F01F0F6FF3000AA733 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1015,7 +781,7 @@
 				C31BFAC31ED0152C0077A793 /* LaunchScreen.storyboard in Resources */,
 				C31BFBA91ED028C50077A793 /* MainFoldingCell.xib in Resources */,
 				C31BFAC01ED0152C0077A793 /* Assets.xcassets in Resources */,
-				C354D4391F0F6FF3000AA733 /* XLQuadrantTableViewCell.xib in Resources */,
+				C38057301F107C6A009BC4BC /* XLQuadrantTableViewCell.xib in Resources */,
 				C31BFABE1ED0152C0077A793 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1024,7 +790,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C354D43A1F0F6FF3000AA733 /* XLQuadrantTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1032,7 +797,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C354D43B1F0F6FF3000AA733 /* XLQuadrantTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1091,52 +855,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C354D42A1F0F6FF3000AA733 /* XLQuadrantM.m in Sources */,
-				C354D45D1F0F6FF3000AA733 /* XLTimeLineM.m in Sources */,
-				C354D3FA1F0F6FF3000AA733 /* XLBarLineChart.m in Sources */,
-				C354D4571F0F6FF3000AA733 /* XLTableChartFooter.m in Sources */,
-				C354D41B1F0F6FF3000AA733 /* XLPieContentChart.m in Sources */,
-				C354D4601F0F6FF3000AA733 /* XLTimeLineChart.m in Sources */,
-				C354D4691F0F6FF3000AA733 /* XLTimeLineChartVC.m in Sources */,
-				C354D4271F0F6FF3000AA733 /* XLQuadrantChart.m in Sources */,
-				C354D4241F0F6FF3000AA733 /* XLQuadrantButton.m in Sources */,
-				C354D42D1F0F6FF3000AA733 /* XLQuadrantRectangleM.m in Sources */,
-				C354D4541F0F6FF3000AA733 /* XLTableChartDetail.m in Sources */,
-				C354D4151F0F6FF3000AA733 /* XLPieChartM.m in Sources */,
-				C354D4091F0F6FF3000AA733 /* UIColor+XLUIColor.m in Sources */,
-				C354D4511F0F6FF3000AA733 /* XLTableChartCell.m in Sources */,
-				C354D46F1F0F6FF3000AA733 /* XLTitleRectangleChart.m in Sources */,
-				C354D4631F0F6FF3000AA733 /* XLTimeLineChartCell.m in Sources */,
-				C354D40F1F0F6FF3000AA733 /* CRoutines.m in Sources */,
 				C31BFABB1ED0152C0077A793 /* ViewController.m in Sources */,
-				C354D40C1F0F6FF3000AA733 /* UIView+ICoo.m in Sources */,
-				C354D45A1F0F6FF3000AA733 /* XLTableChartHeader.m in Sources */,
-				C354D4661F0F6FF3000AA733 /* XLTimeLineDetailChart.m in Sources */,
-				C354D3F41F0F6FF3000AA733 /* XLAxisChart.m in Sources */,
-				C354D43F1F0F6FF3000AA733 /* XLRadarChart.m in Sources */,
-				C354D4451F0F6FF3000AA733 /* XLSegmentCell.m in Sources */,
-				C354D43C1F0F6FF3000AA733 /* XLRadarM.m in Sources */,
-				C354D41E1F0F6FF3000AA733 /* XLPopupChartM.m in Sources */,
-				C354D4421F0F6FF3000AA733 /* XLSegmentCellM.m in Sources */,
-				C354D4361F0F6FF3000AA733 /* XLQuadrantTableViewCell.m in Sources */,
-				C354D4211F0F6FF3000AA733 /* XLPopupChart.m in Sources */,
+				C38057271F107C6A009BC4BC /* XLPopupChartM.m in Sources */,
+				C380572C1F107C6A009BC4BC /* XLQuadrantRectangleM.m in Sources */,
+				C380571C1F107C6A009BC4BC /* XLAxisM.m in Sources */,
+				C380573B1F107C6A009BC4BC /* XLTableChartHeader.m in Sources */,
+				C38057421F107C6A009BC4BC /* XLTitleRectangleChart.m in Sources */,
 				C31BFAB81ED0152C0077A793 /* AppDelegate.m in Sources */,
-				C354D4331F0F6FF3000AA733 /* XLQuadrantChartDetail.m in Sources */,
-				C354D46C1F0F6FF3000AA733 /* XLTitleRectangleM.m in Sources */,
-				C354D4061F0F6FF3000AA733 /* XLBaseChart.m in Sources */,
-				C354D4031F0F6FF3000AA733 /* XLBaseM.m in Sources */,
-				C354D4181F0F6FF3000AA733 /* XLPieChart.m in Sources */,
-				C354D3FD1F0F6FF3000AA733 /* XLBarLineChartCell.m in Sources */,
+				C38057331F107C6A009BC4BC /* XLSegmentCellM.m in Sources */,
+				C38057201F107C6A009BC4BC /* XLBarLineChartCell.m in Sources */,
+				C380573C1F107C6A009BC4BC /* XLTimeLineM.m in Sources */,
+				C380572B1F107C6A009BC4BC /* XLQuadrantM.m in Sources */,
+				C38057221F107C6A009BC4BC /* XLBaseM.m in Sources */,
+				C380572E1F107C6A009BC4BC /* XLQuadrantChartDetail.m in Sources */,
+				C38057391F107C6A009BC4BC /* XLTableChartDetail.m in Sources */,
+				C380572D1F107C6A009BC4BC /* XLQuadrantArrowLabel.m in Sources */,
+				C38057381F107C6A009BC4BC /* XLTableChartCell.m in Sources */,
+				C38057231F107C6A009BC4BC /* XLBaseChart.m in Sources */,
+				C380572F1F107C6A009BC4BC /* XLQuadrantTableViewCell.m in Sources */,
+				C38057311F107C6A009BC4BC /* XLRadarM.m in Sources */,
+				C38057411F107C6A009BC4BC /* XLTitleRectangleM.m in Sources */,
+				C38057361F107C6A009BC4BC /* XLTableCellM.m in Sources */,
+				C38057321F107C6A009BC4BC /* XLRadarChart.m in Sources */,
+				C380573A1F107C6A009BC4BC /* XLTableChartFooter.m in Sources */,
+				C38057241F107C6A009BC4BC /* XLPieChartM.m in Sources */,
+				C38057281F107C6A009BC4BC /* XLPopupChart.m in Sources */,
+				C380573F1F107C6A009BC4BC /* XLTimeLineDetailChart.m in Sources */,
+				C38057371F107C6A009BC4BC /* XLTableChart.m in Sources */,
 				C31BFAB51ED0152B0077A793 /* main.m in Sources */,
-				C354D4481F0F6FF3000AA733 /* XLSegmentChart.m in Sources */,
-				C354D4001F0F6FF3000AA733 /* XLBarLineChartDetail.m in Sources */,
-				C354D4121F0F6FF3000AA733 /* XLGraphicEngine.m in Sources */,
-				C354D44B1F0F6FF3000AA733 /* XLTableCellM.m in Sources */,
-				C354D3F71F0F6FF3000AA733 /* XLBarLineChartM.m in Sources */,
-				C354D44E1F0F6FF3000AA733 /* XLTableChart.m in Sources */,
+				C38057211F107C6A009BC4BC /* XLBarLineChartDetail.m in Sources */,
 				C354D25A1F0F2FE1000AA733 /* MainFoldingCell.m in Sources */,
-				C354D3F11F0F6FF3000AA733 /* XLAxisM.m in Sources */,
-				C354D4301F0F6FF3000AA733 /* XLQuadrantArrowLabel.m in Sources */,
+				C380571E1F107C6A009BC4BC /* XLBarLineChartM.m in Sources */,
+				C38057341F107C6A009BC4BC /* XLSegmentCell.m in Sources */,
+				C380573E1F107C6A009BC4BC /* XLTimeLineChartCell.m in Sources */,
+				C38057291F107C6A009BC4BC /* XLQuadrantButton.m in Sources */,
+				C38057261F107C6A009BC4BC /* XLPieContentChart.m in Sources */,
+				C38057251F107C6A009BC4BC /* XLPieChart.m in Sources */,
+				C380571F1F107C6A009BC4BC /* XLBarLineChart.m in Sources */,
+				C38057351F107C6A009BC4BC /* XLSegmentChart.m in Sources */,
+				C38057401F107C6A009BC4BC /* XLTimeLineChartVC.m in Sources */,
+				C380572A1F107C6A009BC4BC /* XLQuadrantChart.m in Sources */,
+				C380571D1F107C6A009BC4BC /* XLAxisChart.m in Sources */,
+				C380573D1F107C6A009BC4BC /* XLTimeLineChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1144,50 +904,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C354D4101F0F6FF3000AA733 /* CRoutines.m in Sources */,
-				C354D4401F0F6FF3000AA733 /* XLRadarChart.m in Sources */,
-				C354D44C1F0F6FF3000AA733 /* XLTableCellM.m in Sources */,
-				C354D3FB1F0F6FF3000AA733 /* XLBarLineChart.m in Sources */,
-				C354D3FE1F0F6FF3000AA733 /* XLBarLineChartCell.m in Sources */,
-				C354D4611F0F6FF3000AA733 /* XLTimeLineChart.m in Sources */,
-				C354D42B1F0F6FF3000AA733 /* XLQuadrantM.m in Sources */,
 				C354D25B1F0F2FE1000AA733 /* MainFoldingCell.m in Sources */,
-				C354D4371F0F6FF3000AA733 /* XLQuadrantTableViewCell.m in Sources */,
-				C354D4581F0F6FF3000AA733 /* XLTableChartFooter.m in Sources */,
-				C354D4461F0F6FF3000AA733 /* XLSegmentCell.m in Sources */,
-				C354D41C1F0F6FF3000AA733 /* XLPieContentChart.m in Sources */,
-				C354D4341F0F6FF3000AA733 /* XLQuadrantChartDetail.m in Sources */,
-				C354D3F21F0F6FF3000AA733 /* XLAxisM.m in Sources */,
 				C31BFACE1ED0152C0077A793 /* XLChartClientTests.m in Sources */,
-				C354D44F1F0F6FF3000AA733 /* XLTableChart.m in Sources */,
-				C354D3F51F0F6FF3000AA733 /* XLAxisChart.m in Sources */,
-				C354D4671F0F6FF3000AA733 /* XLTimeLineDetailChart.m in Sources */,
-				C354D46A1F0F6FF3000AA733 /* XLTimeLineChartVC.m in Sources */,
-				C354D45B1F0F6FF3000AA733 /* XLTableChartHeader.m in Sources */,
-				C354D40D1F0F6FF3000AA733 /* UIView+ICoo.m in Sources */,
-				C354D46D1F0F6FF3000AA733 /* XLTitleRectangleM.m in Sources */,
-				C354D40A1F0F6FF3000AA733 /* UIColor+XLUIColor.m in Sources */,
-				C354D3F81F0F6FF3000AA733 /* XLBarLineChartM.m in Sources */,
-				C354D4071F0F6FF3000AA733 /* XLBaseChart.m in Sources */,
-				C354D4191F0F6FF3000AA733 /* XLPieChart.m in Sources */,
-				C354D4041F0F6FF3000AA733 /* XLBaseM.m in Sources */,
-				C354D4551F0F6FF3000AA733 /* XLTableChartDetail.m in Sources */,
-				C354D4521F0F6FF3000AA733 /* XLTableChartCell.m in Sources */,
-				C354D4221F0F6FF3000AA733 /* XLPopupChart.m in Sources */,
-				C354D43D1F0F6FF3000AA733 /* XLRadarM.m in Sources */,
-				C354D4701F0F6FF3000AA733 /* XLTitleRectangleChart.m in Sources */,
-				C354D4431F0F6FF3000AA733 /* XLSegmentCellM.m in Sources */,
-				C354D45E1F0F6FF3000AA733 /* XLTimeLineM.m in Sources */,
-				C354D4311F0F6FF3000AA733 /* XLQuadrantArrowLabel.m in Sources */,
-				C354D42E1F0F6FF3000AA733 /* XLQuadrantRectangleM.m in Sources */,
-				C354D4131F0F6FF3000AA733 /* XLGraphicEngine.m in Sources */,
-				C354D4161F0F6FF3000AA733 /* XLPieChartM.m in Sources */,
-				C354D4251F0F6FF3000AA733 /* XLQuadrantButton.m in Sources */,
-				C354D4491F0F6FF3000AA733 /* XLSegmentChart.m in Sources */,
-				C354D4011F0F6FF3000AA733 /* XLBarLineChartDetail.m in Sources */,
-				C354D4641F0F6FF3000AA733 /* XLTimeLineChartCell.m in Sources */,
-				C354D41F1F0F6FF3000AA733 /* XLPopupChartM.m in Sources */,
-				C354D4281F0F6FF3000AA733 /* XLQuadrantChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1195,50 +913,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C354D4111F0F6FF3000AA733 /* CRoutines.m in Sources */,
-				C354D4411F0F6FF3000AA733 /* XLRadarChart.m in Sources */,
-				C354D44D1F0F6FF3000AA733 /* XLTableCellM.m in Sources */,
-				C354D3FC1F0F6FF3000AA733 /* XLBarLineChart.m in Sources */,
-				C354D3FF1F0F6FF3000AA733 /* XLBarLineChartCell.m in Sources */,
-				C354D4621F0F6FF3000AA733 /* XLTimeLineChart.m in Sources */,
-				C354D42C1F0F6FF3000AA733 /* XLQuadrantM.m in Sources */,
 				C354D25C1F0F2FE1000AA733 /* MainFoldingCell.m in Sources */,
-				C354D4381F0F6FF3000AA733 /* XLQuadrantTableViewCell.m in Sources */,
-				C354D4591F0F6FF3000AA733 /* XLTableChartFooter.m in Sources */,
-				C354D4471F0F6FF3000AA733 /* XLSegmentCell.m in Sources */,
-				C354D41D1F0F6FF3000AA733 /* XLPieContentChart.m in Sources */,
-				C354D4351F0F6FF3000AA733 /* XLQuadrantChartDetail.m in Sources */,
-				C354D3F31F0F6FF3000AA733 /* XLAxisM.m in Sources */,
 				C31BFAD91ED0152C0077A793 /* XLChartClientUITests.m in Sources */,
-				C354D4501F0F6FF3000AA733 /* XLTableChart.m in Sources */,
-				C354D3F61F0F6FF3000AA733 /* XLAxisChart.m in Sources */,
-				C354D4681F0F6FF3000AA733 /* XLTimeLineDetailChart.m in Sources */,
-				C354D46B1F0F6FF3000AA733 /* XLTimeLineChartVC.m in Sources */,
-				C354D45C1F0F6FF3000AA733 /* XLTableChartHeader.m in Sources */,
-				C354D40E1F0F6FF3000AA733 /* UIView+ICoo.m in Sources */,
-				C354D46E1F0F6FF3000AA733 /* XLTitleRectangleM.m in Sources */,
-				C354D40B1F0F6FF3000AA733 /* UIColor+XLUIColor.m in Sources */,
-				C354D3F91F0F6FF3000AA733 /* XLBarLineChartM.m in Sources */,
-				C354D4081F0F6FF3000AA733 /* XLBaseChart.m in Sources */,
-				C354D41A1F0F6FF3000AA733 /* XLPieChart.m in Sources */,
-				C354D4051F0F6FF3000AA733 /* XLBaseM.m in Sources */,
-				C354D4561F0F6FF3000AA733 /* XLTableChartDetail.m in Sources */,
-				C354D4531F0F6FF3000AA733 /* XLTableChartCell.m in Sources */,
-				C354D4231F0F6FF3000AA733 /* XLPopupChart.m in Sources */,
-				C354D43E1F0F6FF3000AA733 /* XLRadarM.m in Sources */,
-				C354D4711F0F6FF3000AA733 /* XLTitleRectangleChart.m in Sources */,
-				C354D4441F0F6FF3000AA733 /* XLSegmentCellM.m in Sources */,
-				C354D45F1F0F6FF3000AA733 /* XLTimeLineM.m in Sources */,
-				C354D4321F0F6FF3000AA733 /* XLQuadrantArrowLabel.m in Sources */,
-				C354D42F1F0F6FF3000AA733 /* XLQuadrantRectangleM.m in Sources */,
-				C354D4141F0F6FF3000AA733 /* XLGraphicEngine.m in Sources */,
-				C354D4171F0F6FF3000AA733 /* XLPieChartM.m in Sources */,
-				C354D4261F0F6FF3000AA733 /* XLQuadrantButton.m in Sources */,
-				C354D44A1F0F6FF3000AA733 /* XLSegmentChart.m in Sources */,
-				C354D4021F0F6FF3000AA733 /* XLBarLineChartDetail.m in Sources */,
-				C354D4651F0F6FF3000AA733 /* XLTimeLineChartCell.m in Sources */,
-				C354D4201F0F6FF3000AA733 /* XLPopupChartM.m in Sources */,
-				C354D4291F0F6FF3000AA733 /* XLQuadrantChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
