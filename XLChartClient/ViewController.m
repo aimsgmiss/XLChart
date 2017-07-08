@@ -9,7 +9,8 @@
 #import "ViewController.h"
 #import "XLChart.h"
 #import "MainFoldingCell.h"
-#import <MJExtension/MJExtension.h>
+//#import <MJExtension/MJExtension.h>
+#import "MJExtension.h"
 @interface ViewController ()
 
 
