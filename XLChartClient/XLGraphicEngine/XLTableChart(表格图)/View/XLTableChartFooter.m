@@ -36,6 +36,7 @@
     
     TableChartFooterBtnType         btnType;
     
+    btnType = TableChartFooterBtnType_PrePageBtn;
     if (sender == _previousPageBtn) btnType = TableChartFooterBtnType_PrePageBtn;
     else if(sender == _nextPageBtn) btnType = TableChartFooterBtnType_NextPageBtn;
     if ([self.tableChartFooterDelegate respondsToSelector:@selector(didSelectedTableChartFooterBtnType:)]) {

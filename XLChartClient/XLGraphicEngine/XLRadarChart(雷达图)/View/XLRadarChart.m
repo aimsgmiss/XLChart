@@ -163,10 +163,8 @@
     LineProperty        lineProperty;
     CGPoint             currentPoint;
     CGFloat             radius;
-    RectangleAttr       rectangleAttr;
     CGCOLOR             color;
-    CGSize              textSize;
-    
+  
     color = [_pGraphicEngine UIColorConvertCGColor:uColor];
     itemCount = [radiusArray count];
     circleAttr = [_pGraphicEngine defaultCircleAttr];

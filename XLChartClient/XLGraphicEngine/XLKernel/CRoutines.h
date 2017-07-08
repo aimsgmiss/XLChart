@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  验证密码是否合法
  *
- * @param telphone  电话号码
+ * @param password  电话号码
  *
  * @return 如果验证成功还回true,否则false
  */
@@ -38,8 +38,6 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @return 如果验证成功还回true,否则false
  *
- * @see
- * @see 
  */
 +(BOOL)mTelNumber:(NSString*)telphone PasswordIsValid :(NSString*)password;
 
@@ -52,8 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param number  格式化的数字
  * @return 格式化的字符串
  *
- * @see
- * @see
+
  */
 +(NSString*)stringFromFormatterStyle:(NSNumberFormatterStyle)style number:(NSNumber*)number;
 /**
@@ -63,8 +60,6 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @return 字符串
  *
- * @see
- * @see
  */
 +(NSString*)stringFromDate:(NSDate*)date;
 /**
@@ -74,8 +69,6 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @return UIColor对象
  *
- * @see
- * @see
  */
 +(UIColor*)getUIColorFromUColorsAtIndex:(NSUInteger)index;
 /*准备播放动画**/

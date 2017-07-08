@@ -104,7 +104,6 @@
     NSMutableArray*             deflateArrayM;
     NSUInteger                  index;
     
-    //[super setDataSource:dataSource];
     self.barCharMs = dataSource[0];
     if (self.leftAxisChart) {
         self.leftAxisChart.yLeftAxisScaleDatas = _barCharMs.yLeftAxisScaleDatas;

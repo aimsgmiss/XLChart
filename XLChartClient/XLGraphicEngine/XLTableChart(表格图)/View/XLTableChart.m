@@ -66,8 +66,6 @@ XLAddMethodImTemplate(tableChartCells)
 {
     NSInteger           index;
     NSInteger           count;
-    id                  obj;
-    NSDictionary*       dic;
     NSMutableArray*     arrayM;
     CGRect              rect;
     XLTableCellMs*      tableCellMs;

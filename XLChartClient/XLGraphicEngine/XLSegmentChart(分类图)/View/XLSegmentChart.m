@@ -162,7 +162,6 @@ XLAddMethodImTemplate(segmentItems);
 
 -(void)setBadgeNumbers:(NSArray *)badgeNumbers
 {
-    NSInteger           index;
     UIView*             subView;
     XLSegmentCell*      segmentCell;
 

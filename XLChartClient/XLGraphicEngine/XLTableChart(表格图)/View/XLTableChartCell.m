@@ -39,7 +39,6 @@
     CGPoint         endPoint;
     NSUInteger      index;
     CGFloat         x;
-    CGFloat         y;
     RectangleAttr   rectangleAttr;
     CGFloat         cellWidth;
     
@@ -73,7 +72,6 @@
     CGFloat             x;
     CGFloat             y;
     NSUInteger          index;
-    NSDictionary*       textAttr;
     ArrowAttr           arrowAttr;
     CGFloat             cellWidth;
     CGFloat             maxCellRowCount;
@@ -102,21 +100,6 @@
             
             text = obj;
             if ([text containsString:kTableChartPreIndexStr]) text = [text substringFromIndex:3];
-            
-            /*if([text isEqualToString:@"成长趋势向上"])
-            {
-                arrowAttr.arrowDirection = arrowDirection_up;
-                [_pGraphicEngine mDrawArrowStartPoint:CGPointMake(x + cellWidth/2, y + _cellHeight*3/4) EndPoint:CGPointMake(x + cellWidth/2, y + _cellHeight/4) arrowAttr:&arrowAttr];
-                x += cellWidth;
-                continue;
-            }
-            else if([text isEqualToString:@"成长趋势向下"])
-            {
-                arrowAttr.arrowDirection = arrowDirection_down;
-                [_pGraphicEngine mDrawArrowStartPoint:CGPointMake(x + cellWidth/2, y + _cellHeight*1/4) EndPoint:CGPointMake(x + cellWidth/2, y + _cellHeight*3/4) arrowAttr:&arrowAttr];
-                x += cellWidth;
-                continue;
-            }*/
             textSize = [_pGraphicEngine mCalcuateTextSizeText:text textAttr:self.fontAttr];
             if (x + cellWidth/2 - textSize.width/2 <= 0) [_pGraphicEngine mDrawText:text Point:CGPointMake(0, y + _cellHeight/2 - textSize.height/2) textAttr:self.fontAttr];
             else [_pGraphicEngine mDrawText:text Point:CGPointMake(x + cellWidth/2 - textSize.width/2, y + _cellHeight/2 - textSize.height/2) textAttr:self.fontAttr];

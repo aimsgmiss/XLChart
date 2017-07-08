@@ -149,9 +149,6 @@
 
 -(void)setYLeftAxisScaleDatas:(NSMutableArray *)yLeftAxisScaleDatas{
     
-    CGFloat         max;
-    CGFloat         min;
-    
     if (yLeftAxisScaleDatas.count <= 0) return;
     [super setYLeftAxisScaleDatas:yLeftAxisScaleDatas];
     _maxAxisScaleValue =[[yLeftAxisScaleDatas valueForKeyPath:@"@max.floatValue"] floatValue];
@@ -165,9 +162,6 @@
     LineProperty        lineProperty;
     NSDictionary*       textAttr;
     NSUInteger          index;
-    NSUInteger          xAverSacleLen;
-    NSUInteger          xAxisScaleCount;
-    NSUInteger          yAverScaleLen;
     NSUInteger          yAxisScaleCount;
     NSString*           text;
     CGSize              textSize;

@@ -122,16 +122,13 @@ XLAddMethodImTemplate(tableChartCells)
 
 -(void)dealTableCellM:(XLTableCellM* )tableCellM index:(NSUInteger)idx{
     
-    XLTableChartCell*   tableChartCell;
     NSUInteger          index;
     NSString*           text;
     CGSize              textSize;
     CGFloat             x;
     CGFloat             maxCellHeight;
     CGFloat             cellWidth;
-    NSInteger           tableCellCount;
     NSNumber*           number;
-    CGFloat             width;
     CGFloat             maxWidth;
     NSUInteger          cellRowCount;
     NSUInteger          maxCellRowCount;

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainFoldingCell : UIView
+@interface MainFoldingCell : UITableViewCell
 
 @end

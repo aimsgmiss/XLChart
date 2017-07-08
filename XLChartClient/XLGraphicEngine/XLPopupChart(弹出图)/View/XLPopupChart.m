@@ -40,8 +40,6 @@
     CGSize          textSize;
     CGFloat         x;
     CGFloat         y;
-    CircleAttr      circleAttr;
-    CGFloat         radius;
     NSInteger       count;
     NSInteger       index;
     NSArray*        allKeys;
@@ -50,7 +48,6 @@
     
     [super drawRect:rect];
     y = _topBottomMargin;
-    //fontAttr = kSystemFontSize9WhiteColor;
     allKeys = [_popupChartM.contentDic allKeys];
     count = allKeys.count;
     for (index = 0; index < count; index++) {

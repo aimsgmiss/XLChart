@@ -73,14 +73,12 @@
     titleRectM = [[XLTitleRectangleM alloc]init];
     for (index = 0; index < self.titlRectDataSource.count; index++) {
         [titleRectM.titles addObject:self.titlRectDataSource[index]];
-        //[titleRectM.colors addObject:[CRoutines getUIColorFromUColorsAtIndex:index]];
     }
     self.titlRectChart.titleRectM = titleRectM;
     
 }
 
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
+
 - (void)drawRect:(CGRect)rect {
     CGContextRef            ctx;
     
@@ -89,16 +87,14 @@
         _pGraphicEngine = [[XLGraphicEngine alloc]init];
         _pGraphicEngine.ctx = ctx;
     }
-    //画背景纹理
+   
 }
 
 -(void)tapGestureRecogizer:(UITapGestureRecognizer*)tapGesture
 {
     if (self.popupChart){
-        //[self.popupChart removeFromSuperview];
         self.popupChart = nil;
     }
-    NSLog(@"BaseChart tapGesture");
 }
 
 #pragma mark - UIGestureRecognizerDelegate

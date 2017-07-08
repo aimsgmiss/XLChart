@@ -23,8 +23,6 @@
 -(void)setBarCount:(NSInteger)barCount{
     
     _barCount = barCount;
-    //if (_zoomType == ChartZoomTypeNormal) _barHeight = (_cellHeight - _margin * (barCount + 1))/_barCount;
-    //else if(_zoomType == ChartZoomTypeDeflate) _barHeight = (_cellHeight - 15)/_barCount;
     if (_cellHeight > 0) _barHeight = (_cellHeight - _margin * (barCount + 1))/_barCount;
     if (_cellWidth > 0) _barWidth = (_cellWidth - _margin * (barCount + 1))/_barCount;
 }

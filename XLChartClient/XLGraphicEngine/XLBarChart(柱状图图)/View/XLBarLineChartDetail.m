@@ -58,11 +58,9 @@ XLAddMethodImTemplate(shapLayers);
     NSInteger           barChartCellCount;
     NSInteger           dataSourceCount;
     NSInteger           index;
-    NSInteger           tempIndex;
     CGFloat             margin;
     CGFloat             cellHeight;
     CGFloat             cellWidth;
-    CGFloat             scrollX;
     CGFloat             scrollY;
     CGFloat             cellBarCount;
     CGFloat             defaultBarWidth;
@@ -126,7 +124,6 @@ XLAddMethodImTemplate(shapLayers);
             y += self.cellHeight;
         } else {
             barChartCell = [[XLBarLineChartCell alloc]initWithFrame:CGRectMake(x, 0, self.cellWidth, self.height) zoomType:_zoomType];
-            //barChartCell.leftMargin = self.superViewLeftAxisMargin;
             barChartCell.yLeftAverScaleLen = self.yLeftAverScaleLen;
             barChartCell.leftMargin = 2;
             barChartCell.yLeftAxisScaleDatas = _barChartMs.yLeftAxisScaleDatas;
@@ -144,7 +141,7 @@ XLAddMethodImTemplate(shapLayers);
         [self.barChartCells addObject:barChartCell];
     }
     if (_chartType == barChartType_DirectionRight) self.contentSize = CGSizeMake(self.width,  self.cellHeight * dataSource.count);
-    else self.contentSize = CGSizeMake(self.cellWidth * dataSource.count, self.height);
+    else self.contentSize = CGSizeMake(self.cellWidth * dataSource.count + self.cellWidth/2, self.height);
     
 }
 
@@ -152,7 +149,7 @@ XLAddMethodImTemplate(shapLayers);
 {
     if (_chartType == barChartType_DirectionRight) {
         CGPoint             touchPoint;
-        XLBarLineChartM*        barChartM;
+        XLBarLineChartM*    barChartM;
         XLPopupChartM*      popupChartM;
         NSDictionary*       fontAttr;
         
@@ -179,9 +176,6 @@ XLAddMethodImTemplate(shapLayers);
         CGPoint             touchPoint;
         CAShapeLayer*       shapeLayer;
         NSInteger           index;
-        XLBarLineChartM*        barChartM;
-        XLPopupChartM*      popupChartM;
-        NSString*           number;
         
         if (self.popupChart) [self.popupChart removeFromSuperview];
         touchPoint = [tapGesture locationInView:self];
@@ -230,7 +224,7 @@ XLAddMethodImTemplate(shapLayers);
                 startIndex = index;
                 break;
             }
-            if (offset.x >= barChartM.scrollX && barChartM.scrollX + barChartM.cellWidth  > offset.x ) {
+            if (offset.x >= barChartM.scrollX && barChartM.scrollX + barChartM.cellWidth  > offset.x) {
                 startIndex = index;
                 break;
             }
@@ -243,8 +237,8 @@ XLAddMethodImTemplate(shapLayers);
         if (_chartType == barChartType_DirectionRight) barChartCell.frame = CGRectMake(barChartM.rect.origin.x - barChartCell.leftMargin, barChartM.scrollY, barChartCell.width, barChartCell.height);
         else barChartCell.frame = CGRectMake(barChartM.scrollX, barChartCell.top, barChartCell.width, barChartCell.height);
         startIndex++;
-        if(startIndex >= self.dataSource.count) break;
         [barChartCell setNeedsDisplay];
+        if(startIndex >= self.dataSource.count) break;
     }
 }
 

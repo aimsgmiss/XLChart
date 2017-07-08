@@ -22,15 +22,7 @@ XLAddMethodImTemplate(headerSorts)
 -(instancetype)initWithFrame:(CGRect)frame zoomType:(ChartZoomType)zoomType
 {
     self = [super initWithFrame:frame zoomType:zoomType];
-    /*if(IS_IPHONE_4){
-        self.fontAttr = kSystemFontSize10WhiteColor;
-    }else if(IS_IPHONE_5){
-        self.fontAttr = kSystemFontSize9WhiteColor;
-    }else if(IS_IPHONE_6){
-        self.fontAttr = kSystemFontSize12WhiteColor;
-    }else if(IS_IPHONE_6_PLUS){
-        self.fontAttr = kSystemFontSize13WhiteColor;
-    }*/
+
    
     self.userInteractionEnabled = YES;
     return self;
@@ -85,6 +77,7 @@ XLAddMethodImTemplate(headerSorts)
     
     [super tapGestureRecogizer:tapGesture];
     touchPoint = [tapGesture locationInView:self];
+    count = self.dataSource.count;
     for (index = 0; index < count; index++) {
         cellWidths += ((NSNumber*)_tableCellWidths[index]).floatValue;
         if (cellWidths >= touchPoint.x) {
