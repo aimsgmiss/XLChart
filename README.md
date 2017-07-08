@@ -1,5 +1,5 @@
 # XLChart
-
+XLChart is very useful and easy for current data analyse, you can download it everywhere and any time
 ![image](https://github.com/aimsgmiss/XLChart/blob/master/XLChartClient/ScreenShots/XLPieChart.gif)
 
 ![image](https://github.com/aimsgmiss/XLChart/blob/master/XLChartClient/ScreenShots/XLQuadrantChart.gif)
