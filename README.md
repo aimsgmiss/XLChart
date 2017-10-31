@@ -1,5 +1,5 @@
 # XLChart
-XLChart is very useful and easy for current data analyses. You can download it anywhere and anytime for free. There is nothing to worry about how to use it because the entire project is a demo once downloaded. You can run it directly.
+XLChart is very useful and easy for current data analyses with Objective-C language.You can download it anywhere and anytime for free. There is nothing to worry about how to use it because the entire project is a demo once downloaded. You can run it directly.
 
 Thanks to MJEXtension that i used to convert json into model, it provides a convenient method for me. I have been spending several months in designing and coding XLChart. But it still has a long way to go. Anyone interested can join me in accomplishing the rest of it.  If you find any bug, please feel free to send email to 329672851@qq.com. Thank you.
 
