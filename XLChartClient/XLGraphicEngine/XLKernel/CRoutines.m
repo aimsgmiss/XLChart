@@ -37,8 +37,8 @@
     return uColors[index];
 }
 
-+(NSDictionary*)jsonFromData:(id)responseId{
-    
++(NSDictionary*)jsonFromData:(id)responseId
+{
     NSError*        error;
     NSDictionary*   dic;
     
