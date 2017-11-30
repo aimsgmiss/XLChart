@@ -10,6 +10,9 @@
 #import "XLGraphicEngine.h"
 
 @interface XLQuadrantArrowLabel : UILabel
+  
 @property (nonatomic,strong) XLGraphicEngine*   _pGraphicEngine;
+
 @property (nonatomic,assign) NSInteger trend;
+
 @end
