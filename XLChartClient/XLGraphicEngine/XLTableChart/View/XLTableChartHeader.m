@@ -22,8 +22,6 @@ XLAddMethodImTemplate(headerSorts)
 -(instancetype)initWithFrame:(CGRect)frame zoomType:(ChartZoomType)zoomType
 {
     self = [super initWithFrame:frame zoomType:zoomType];
-
-   
     self.userInteractionEnabled = YES;
     return self;
 }
