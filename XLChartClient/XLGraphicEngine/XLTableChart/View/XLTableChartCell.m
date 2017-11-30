@@ -12,7 +12,6 @@
 
 -(instancetype)initWithFrame:(CGRect)frame zoomType:(ChartZoomType)zoomType
 {
-    
     NSArray *array = @[kWhiteColor,kBlueColor,kLightGrayColor,kCyanColor,kMagentaColor,kYellowColor,kBrownColor];
     self = [super initWithFrame:frame zoomType:zoomType];
     self.bkColor = array[rand()%1];
@@ -125,10 +124,8 @@
 
 -(void)setCellHeight:(CGFloat)cellHeight
 {
-  
     _cellHeight = cellHeight;
     _height = self.topMargin + cellHeight;
-    
 }
 
 
