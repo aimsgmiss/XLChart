@@ -26,7 +26,6 @@
 -(instancetype)initWithFrame:(CGRect)frame zoomType:(ChartZoomType)zoomType
 {
     self = [super initWithFrame:frame zoomType:zoomType];
- 
     [self setBackgroundColor:[UIColor whiteColor]];
     self.titlRectChart = [[XLTitleRectangleChart alloc]initWithFrame:CGRectMake(0, 0, frame.size.width, self.titlRectChartHeight) zoomType:zoomType];
     [self addSubview:self.titlRectChart];
