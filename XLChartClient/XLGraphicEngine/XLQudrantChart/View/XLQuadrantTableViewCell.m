@@ -13,8 +13,8 @@
 @interface XLQuadrantTableViewCell ()
 
 @property (weak, nonatomic) IBOutlet XLQuadrantArrowLabel *arrowLabel;
-@property (weak, nonatomic) IBOutlet UILabel *textStrLabel;
 
+@property (weak, nonatomic) IBOutlet UILabel *textStrLabel;
 
 @end
 @implementation XLQuadrantTableViewCell
