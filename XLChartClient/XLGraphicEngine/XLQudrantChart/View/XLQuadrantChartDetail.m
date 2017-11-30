@@ -9,9 +9,15 @@
 #import "XLQuadrantChartDetail.h"
 #import "XLChart.h"
 
-#define     kValueNormal            12
-#define     kValueSlow              8
-#define     kValueFast              20
+#define     kValueNormal                         12
+#define     kValueSlow                           8
+#define     kValueFast                           20
+#define     kTrendOrienUpStatusNormal           ((ArrowStatus){eTrendOrien_up,eTrendStat_normal,kValueNormal})
+#define     kTrendOrienUpStatusSlow             ((ArrowStatus){eTrendOrien_up,eTrendStat_slow,kValueSlow})
+#define     kTrendOrienUpStatusFast             ((ArrowStatus){eTrendOrien_up,eTrendStat_fast,kValueFast})
+#define     kTrendOrienDwonStatusNormal         ((ArrowStatus){eTrendOrien_dwon,eTrendStat_normal,kValueNormal})
+#define     kTrendOrienDwonStatusSlow           ((ArrowStatus){eTrendOrien_dwon,eTrendStat_slow,kValueSlow})
+#define     kTrendOrienDwonStatusFast           ((ArrowStatus){eTrendOrien_dwon,eTrendStat_fast,kValueFast})
 
 typedef enum _TrendOrientation
 {
@@ -32,13 +38,6 @@ typedef struct _arrowStatus
     TrendStatus         status;
     int                 arrowLen;
 }ArrowStatus;
-
-#define kTrendOrienUpStatusNormal           ((ArrowStatus){eTrendOrien_up,eTrendStat_normal,kValueNormal})
-#define kTrendOrienUpStatusSlow             ((ArrowStatus){eTrendOrien_up,eTrendStat_slow,kValueSlow})
-#define kTrendOrienUpStatusFast             ((ArrowStatus){eTrendOrien_up,eTrendStat_fast,kValueFast})
-#define kTrendOrienDwonStatusNormal         ((ArrowStatus){eTrendOrien_dwon,eTrendStat_normal,kValueNormal})
-#define kTrendOrienDwonStatusSlow           ((ArrowStatus){eTrendOrien_dwon,eTrendStat_slow,kValueSlow})
-#define kTrendOrienDwonStatusFast           ((ArrowStatus){eTrendOrien_dwon,eTrendStat_fast,kValueFast})
 
 @interface XLQuadrantChartDetail()
 {
@@ -90,7 +89,6 @@ XLAddMethodImTemplate(blackPoints)
             }
             index += _xRectangleMargin + _rectangleWidth;
         }
-        
     }
     
     return _quadrantRectangleMs;
@@ -132,6 +130,7 @@ XLAddMethodImTemplate(blackPoints)
 }
 
 -(void)setDataSource:(NSMutableArray *)dataSource{
+    
     NSInteger               rectMcount;
     CGFloat                 yAxisMax = 1;
     
