@@ -84,8 +84,8 @@ XLAddMethodImTemplate(dataSource)
                                @{@"number":@200000,@"number3":@150000,@"number2":@110000,@"name":@"October"},
                                @{@"number":@230000,@"number3":@250000,@"number2":@110000,@"name":@"November"},
                                @{@"number":@230000,@"number3":@250000,@"number2":@110000,@"name":@"December"}]}
-                   ];
-           [self addToDataSource:arr[0] Index:3];
+                           ];
+    [self addToDataSource:arr[0] Index:3];
     arr = @[
              @{
                  @"xTopAxisScaleDatas":@[@0,@50000,@100000,@150000,@200000,@300000],
@@ -152,18 +152,18 @@ XLAddMethodImTemplate(dataSource)
             @{
               @"yLeftAxisScaleDatas":@[@-350000,@0,@50000,@100000,@150000,@200000,@350000],
               @"barChartMs":@[
-                              @{@"number":@160000,@"number3":@110000,@"number2":@-208000, @"lineNumber":@-10555,@"name":@"January"},
-                              @{@"number":@202300,@"number3":@142000,@"number2":@290000,@"lineNumber":@-25555,@"name":@"Febury"},
-                              @{@"number":@230000,@"number3":@200050,@"number2":@-280000,@"lineNumber":@10555,@"name":@"March"},
-                              @{@"number":@203000,@"number3":@260000,@"number2":@170000,@"lineNumber":@-10555,@"name":@"April"},
-                              @{@"number":@205000,@"number3":@210000,@"number2":@-280000,@"lineNumber":@-2555,@"name":@"May"},
-                              @{@"number":@280340,@"number3":@210000,@"number2":@-200000,@"lineNumber":@5555,@"name":@"June"},
-                              @{@"number":@250000,@"number3":@210000,@"number2":@-150000,@"lineNumber":@65555,@"name":@"July"},
-                              @{@"number":@250000,@"number3":@190000,@"number2":@-150000,@"lineNumber":@-30555,@"name":@"Auguest"},
-                              @{@"number":@180000,@"number3":@210000,@"number2":@180000,@"lineNumber":@-10555,@"name":@"Sep"},
-                              @{@"number":@200000,@"number3":@150000,@"number2":@-110000,@"lineNumber":@82000,@"name":@"October"},
-                              @{@"number":@230000,@"number3":@250000,@"number2":@110000,@"lineNumber":@-20555,@"name":@"November"},
-                              @{@"number":@230000,@"number3":@250000,@"number2":@-110000,@"lineNumber":@6055,@"name":@"December"}
+                                  @{@"number":@160000,@"number3":@110000,@"number2":@-208000, @"lineNumber":@-10555,@"name":@"January"},
+                                  @{@"number":@202300,@"number3":@142000,@"number2":@290000,@"lineNumber":@-25555,@"name":@"Febury"},
+                                  @{@"number":@230000,@"number3":@200050,@"number2":@-280000,@"lineNumber":@10555,@"name":@"March"},
+                                  @{@"number":@203000,@"number3":@260000,@"number2":@170000,@"lineNumber":@-10555,@"name":@"April"},
+                                  @{@"number":@205000,@"number3":@210000,@"number2":@-280000,@"lineNumber":@-2555,@"name":@"May"},
+                                  @{@"number":@280340,@"number3":@210000,@"number2":@-200000,@"lineNumber":@5555,@"name":@"June"},
+                                  @{@"number":@250000,@"number3":@210000,@"number2":@-150000,@"lineNumber":@65555,@"name":@"July"},
+                                  @{@"number":@250000,@"number3":@190000,@"number2":@-150000,@"lineNumber":@-30555,@"name":@"Auguest"},
+                                  @{@"number":@180000,@"number3":@210000,@"number2":@180000,@"lineNumber":@-10555,@"name":@"Sep"},
+                                  @{@"number":@200000,@"number3":@150000,@"number2":@-110000,@"lineNumber":@82000,@"name":@"October"},
+                                  @{@"number":@230000,@"number3":@250000,@"number2":@110000,@"lineNumber":@-20555,@"name":@"November"},
+                                  @{@"number":@230000,@"number3":@250000,@"number2":@-110000,@"lineNumber":@6055,@"name":@"December"}
                             ]
              }
             ];
