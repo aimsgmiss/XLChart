@@ -29,6 +29,4 @@
 /**  表示这个对象画的圆弧是否被选中*/
 @property (nonatomic,assign) BOOL selected;
 
-
-
 @end
