@@ -37,20 +37,20 @@ XLAddMethodImTemplate(dataSource)
     NSArray* arr;
     
     arr = @[
-            @{@"percent" : @0.15,@"name" : @"iphone 6 plus"},
-            @{@"percent" : @0.05,@"name" : @"iphone 5 plus"},
-            @{@"percent" : @0.45,@"name" : @"iphone 4 plus"},
-            @{@"percent" : @0.25,@"name" : @"iphone 7 plus"},
-            @{@"percent" : @0.1,@"name" : @"iphone 8 plus"}
+                @{@"percent" : @0.15,@"name" : @"iphone 6 plus"},
+                @{@"percent" : @0.05,@"name" : @"iphone 5 plus"},
+                @{@"percent" : @0.45,@"name" : @"iphone 4 plus"},
+                @{@"percent" : @0.25,@"name" : @"iphone 7 plus"},
+                @{@"percent" : @0.1,@"name" : @"iphone 8 plus"}
           ];
     [self addToDataSource:arr Index:0];
     
     arr = @[
-              @{@"percent" : @0.15,@"name" : @"iphone 6 plus"},
-              @{@"percent" : @0.05,@"name" : @"iphone 5 plus"},
-              @{@"percent" : @0.45,@"name" : @"iphone 4 plus"},
-              @{@"percent" : @0.25,@"name" : @"iphone 7 plus"},
-              @{@"percent" : @0.1,@"name" : @"iphone 8 plus"}
+                @{@"percent" : @0.15,@"name" : @"iphone 6 plus"},
+                @{@"percent" : @0.05,@"name" : @"iphone 5 plus"},
+                @{@"percent" : @0.45,@"name" : @"iphone 4 plus"},
+                @{@"percent" : @0.25,@"name" : @"iphone 7 plus"},
+                @{@"percent" : @0.1,@"name" : @"iphone 8 plus"}
           ];
     
     [self addToDataSource:arr Index:1];
@@ -122,7 +122,8 @@ XLAddMethodImTemplate(dataSource)
                              @{@"items":@[@"Jike deliver",@"333354",@"1236645",@"5488",@"1000"]},
                              @{@"items":@[@"Jike Order",@"333354",@"1236645",@"5488",@"1000"]},
                              @{@"items":@[@"Jike Mar",@"333354",@"1236645",@"5488",@"1000"]}
-                     ]}];
+                         ]}
+        ];
     [self addToDataSource:arr[0] Index:5];
     
     arr = @[
@@ -139,7 +140,9 @@ XLAddMethodImTemplate(dataSource)
                                   @{@"items":@[@"Mothes",@[@"333354",@"1236645",@"5488"],@"1000"]},
                                   @{@"items":@[@"Delivery",@[@"333354",@"1236645",@"5488"],@"1000"]},
                                   @{@"items":@[@"Deliers ",@[@"333354",@"1236645",@"5488"],@"1000"]}
-                      ]}];
+                             ]
+            }
+          ];
     [self addToDataSource:arr[0] Index:6];
  
     arr = @[
@@ -263,7 +266,6 @@ XLAddMethodImTemplate(dataSource)
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-  
     EBarChartType           barChartType;
     PieChartType            pieChartType;
     XLBaseChart*            contentChart;
