@@ -50,7 +50,6 @@ XLAddMethodImTemplate(timeLineChartCells)
 -(void)drawRect:(CGRect)rect
 {
     [super drawRect:rect];
-    
 }
 
 -(void)setDataSource:(NSMutableArray *)dataSource
