@@ -10,5 +10,7 @@
 #import "XLPopupChartM.h"
 
 @interface XLPopupChart : XLBaseChart
+  
 @property (nonatomic,strong) XLPopupChartM* popupChartM;
+
 @end
