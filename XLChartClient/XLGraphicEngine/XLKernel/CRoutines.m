@@ -37,8 +37,6 @@
     return uColors[index];
 }
 
-
-
 +(NSDictionary*)jsonFromData:(id)responseId{
     
     NSError*        error;
@@ -48,9 +46,6 @@
     if (error) assert(false);
     return dic;
 }
-
-
-
 
 @end
 
