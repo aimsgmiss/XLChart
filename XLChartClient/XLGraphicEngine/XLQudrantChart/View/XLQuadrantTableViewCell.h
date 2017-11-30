@@ -10,6 +10,7 @@
 #import "XLQuadrantM.h"
 
 @interface XLQuadrantTableViewCell : UITableViewCell
+  
 @property (nonatomic,strong) XLQuadrantM* qModel;
 
 @end
